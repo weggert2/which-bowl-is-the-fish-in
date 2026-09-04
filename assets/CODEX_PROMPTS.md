@@ -180,7 +180,267 @@ Style: Fantasy but friendly, magical/mystical elements, whimsical not creepy. Fi
 
 ---
 
-## Prompt 9: UI Effects - Success Celebration
+## Prompt 9: Exotic & Rare Real Creatures (Batch 1)
+
+**Purpose:** Unusual but real sea creatures - higher rarity
+
+**Prompt:**
+```
+Create 5 PNG images (512x512px, transparent background) of exotic/rare REAL sea creatures, cartoonish style matching previous batches:
+
+1. Coelacanth - Ancient "living fossil" fish, blue-gray with distinctive lobed fins, prehistoric look
+2. Blobfish - Pink/gray gelatinous appearance, sad droopy face, endearingly ugly
+3. Vampire Squid - Dark red/black, webbed arms like a cape, large eyes, bioluminescent spots
+4. Axolotl - Pink/white salamander with external gills, perpetual smile, cute
+5. Nautilus - Spiral chambered shell, brown/cream stripes, tentacles emerging
+
+Style: Cartoonish but recognizable, maintains friendly/whimsical tone. These are weird but real!
+```
+
+**Outputs:**
+- `assets/fish/coelacanth_01.png`
+- `assets/fish/blobfish_01.png`
+- `assets/fish/vampire_squid_01.png`
+- `assets/fish/axolotl_01.png`
+- `assets/fish/nautilus_01.png`
+
+---
+
+## Prompt 10: Exotic & Rare Real Creatures (Batch 2)
+
+**Purpose:** More unusual real creatures
+
+**Prompt:**
+```
+Create 5 more PNG images (512x512px, transparent background) of exotic real sea creatures:
+
+1. Hammerhead Shark - Distinctive T-shaped head, gray body, small but intimidating (bowl-sized)
+2. Manta Ray - Flat body with "wings", spotted pattern, graceful pose
+3. Sea Dragon (Leafy Seadragon) - Elaborate leaf-like appendages, yellow/orange, looks like floating seaweed
+4. Lionfish - Dramatic striped fins like a mane, red/white/black, venomous but beautiful
+5. Giant Isopod - Large pill bug creature, segmented gray/blue armor, alien-looking
+
+Style: Same cartoonish style, weird but wonderful real creatures.
+```
+
+**Outputs:**
+- `assets/fish/hammerhead_01.png`
+- `assets/fish/manta_ray_01.png`
+- `assets/fish/sea_dragon_01.png`
+- `assets/fish/lionfish_01.png`
+- `assets/fish/giant_isopod_01.png`
+
+---
+
+## Prompt 11: Extinct Prehistoric Creatures
+
+**Purpose:** Ancient creatures that no longer exist - legendary tier
+
+**Prompt:**
+```
+Create 5 PNG images (512x512px, transparent background) of EXTINCT prehistoric sea creatures, cartoonish but impressive:
+
+1. Megalodon - Massive shark (bowl-sized representation), huge teeth, gray with scars, ancient predator
+2. Dunkleosteus - Armored prehistoric fish, bony plated head, powerful jaws, olive/gray
+3. Ammonite - Spiral fossilized shell, brown/tan with fossil texture, ancient mollusk
+4. Trilobite - Segmented prehistoric arthropod, brown with ridged exoskeleton, alien bug-like
+5. Helicoprion - Bizarre shark with spiral tooth whorl, gray with distinctive circular saw jaw
+
+Style: Slightly more epic/impressive than common fish, but still friendly cartoon style. Ancient mysteries!
+```
+
+**Outputs:**
+- `assets/fish/megalodon_01.png`
+- `assets/fish/dunkleosteus_01.png`
+- `assets/fish/ammonite_01.png`
+- `assets/fish/trilobite_01.png`
+- `assets/fish/helicoprion_01.png`
+
+---
+
+## Prompt 12: Mythological Sea Creatures (Batch 1)
+
+**Purpose:** Legendary creatures from mythology and folklore - epic/legendary rarity
+
+**Prompt:**
+```
+Create 5 PNG images (512x512px, transparent background) of MYTHOLOGICAL sea creatures (bowl-sized versions), mystical/epic style:
+
+1. Baby Kraken - Small octopus-like creature with multiple tentacles, dark purple/blue, glowing eyes, ominous but cute
+2. Cthulhu Spawn - Mini version with octopus head, dragon wings, tentacle face, green/purple, eldritch but whimsical
+3. Leviathan - Massive serpentine sea monster (miniature), dark blue scales, glowing markings, coiled pose
+4. Hydra Hatchling - Multi-headed serpent (3-4 heads), teal/green scales, small but fierce
+5. Sea Serpent - Long sinuous body, dragon-like head, blue-green scales with mane, classic medieval style
+
+Style: Epic and mystical but maintains the game's friendly tone. Legendary but not terrifying.
+```
+
+**Outputs:**
+- `assets/fish/baby_kraken_01.png`
+- `assets/fish/cthulhu_spawn_01.png`
+- `assets/fish/leviathan_01.png`
+- `assets/fish/hydra_hatchling_01.png`
+- `assets/fish/sea_serpent_01.png`
+
+---
+
+## Prompt 13: Mythological Sea Creatures (Batch 2)
+
+**Purpose:** More legendary creatures from various mythologies
+
+**Prompt:**
+```
+Create 5 more PNG images (512x512px, transparent background) of mythological sea creatures:
+
+1. Mini Scylla - Multi-tentacled monster with dog heads, gray/purple, Greek mythology
+2. Charybdis - Swirling vortex creature, water elemental form, blue spiral with teeth/eye
+3. Selkie - Half-seal half-human form, brown seal with mystical shimmer, Celtic folklore
+4. Aspidochelone - Island turtle, mossy shell with tiny trees growing on it, gigantic but miniaturized
+5. Hafgufa - Norse sea monster, whale-like with gaping maw, gray with barnacles and seaweed
+
+Style: Mythical and ancient, but cartoonish. Legendary creatures from world mythology.
+```
+
+**Outputs:**
+- `assets/fish/mini_scylla_01.png`
+- `assets/fish/charybdis_01.png`
+- `assets/fish/selkie_01.png`
+- `assets/fish/aspidochelone_01.png`
+- `assets/fish/hafgufa_01.png`
+
+---
+
+## Prompt 14: Fantastical Fish (Batch 3) - More Magical Creatures
+
+**Purpose:** Additional invented magical creatures for variety
+
+**Prompt:**
+```
+Create 5 more fantastical sea creatures (512x512px PNG, transparent background), magical/mystical style:
+
+1. Neon Nudibranch - Glowing sea slug with electric neon colors (pink/cyan/yellow), trails of light
+2. Quantum Quid - Squid that's simultaneously multiple colors/poses, quantum superposition effect, glitchy appearance
+3. Moonstone Manta - Translucent manta ray made of opalescent moonstone, soft glow
+4. Ember Urchin - Sea urchin with spines made of flame/ember, orange/red glow, warm light
+5. Prism Perch - Small fish that refracts light into rainbows, crystalline scales, spectrum effect
+
+Style: Magical and creative, mystical temple aesthetic. Impossible creatures.
+```
+
+**Outputs:**
+- `assets/fish/neon_nudibranch_01.png`
+- `assets/fish/quantum_quid_01.png`
+- `assets/fish/moonstone_manta_01.png`
+- `assets/fish/ember_urchin_01.png`
+- `assets/fish/prism_perch_01.png`
+
+---
+
+## Prompt 15: Fantastical Fish (Batch 4) - Elemental & Cosmic
+
+**Purpose:** Elemental and cosmic-themed magical creatures
+
+**Prompt:**
+```
+Create 5 elemental/cosmic fantastical creatures (512x512px PNG, transparent background):
+
+1. Frost Flounder - Fish made of ice crystals and snowflakes, pale blue/white, freezing aura
+2. Magma Moray - Eel with lava flowing through cracks in obsidian skin, orange/red glow
+3. Storm Sturgeon - Fish crackling with lightning, dark gray with blue electricity arcs
+4. Cosmic Carp - Koi fish containing a miniature galaxy, swirling stars and nebulas inside
+5. Aether Anchovy - Tiny fish made of pure magical energy, purple/white wisps, ethereal and ghostly
+
+Style: Elemental and magical, each represents a different force/element. Mystical and powerful.
+```
+
+**Outputs:**
+- `assets/fish/frost_flounder_01.png`
+- `assets/fish/magma_moray_01.png`
+- `assets/fish/storm_sturgeon_01.png`
+- `assets/fish/cosmic_carp_01.png`
+- `assets/fish/aether_anchovy_01.png`
+
+---
+
+## Prompt 16: Objects & Oddities - What Doesn't Belong?
+
+**Purpose:** Random objects and humorous "catches" - common to uncommon rarity
+
+**Prompt:**
+```
+Create 5 PNG images (512x512px, transparent background) of OBJECTS that might be found instead of fish, cartoonish style:
+
+1. Old Boot - Weathered leather boot, brown/tan, worn and water-logged, comedic classic
+2. Message in a Bottle - Glass bottle with cork, rolled parchment visible inside, slightly glowing
+3. Treasure Chest - Small ornate wooden chest, gold trim, slightly open with coins visible
+4. Ship's Anchor - Rusty iron anchor, brown/orange rust, encrusted with barnacles and seaweed
+5. Diver's Helmet - Old brass diving helmet, round with viewing ports, aged patina
+
+Style: Cartoonish and whimsical, but these are "treasures" not trash. Fun discoveries.
+```
+
+**Outputs:**
+- `assets/fish/old_boot_01.png`
+- `assets/fish/message_bottle_01.png`
+- `assets/fish/treasure_chest_01.png`
+- `assets/fish/anchor_01.png`
+- `assets/fish/diving_helmet_01.png`
+
+---
+
+## Prompt 17: Objects & Oddities - Modern Pollution (Dark Humor)
+
+**Purpose:** Commentary on ocean pollution, humorous but pointed - uncommon tier
+
+**Prompt:**
+```
+Create 5 PNG images (512x512px, transparent background) of modern pollution/trash items, cartoonish but with subtle dark humor:
+
+1. Plastic Bottle - Empty soda bottle, clear plastic with faded label, unfortunately realistic
+2. Aluminum Can - Crusty soda can, dented and rusted, disappointing catch
+3. Six-Pack Rings - Plastic rings, slightly tangled, environmental statement
+4. Oil Blob - Globular mass of black oil, slightly glossy, unfortunate discovery
+5. Lost Fishing Line - Tangled monofilament with hook, gray/clear, hazard
+
+Style: Cartoonish but real. These are "oof" moments - dark humor about pollution. Include subtle sad/guilty expressions on some items if possible (anthropomorphic).
+```
+
+**Outputs:**
+- `assets/fish/plastic_bottle_01.png`
+- `assets/fish/aluminum_can_01.png`
+- `assets/fish/six_pack_rings_01.png`
+- `assets/fish/oil_blob_01.png`
+- `assets/fish/fishing_line_01.png`
+
+---
+
+## Prompt 18: Objects & Oddities - Mysterious Treasures
+
+**Purpose:** Rare and mysterious found objects - rare to epic tier
+
+**Prompt:**
+```
+Create 5 PNG images (512x512px, transparent background) of mysterious/magical objects:
+
+1. Ancient Coin - Gold coin with unknown symbols, slightly glowing, mysterious origin
+2. Shipwreck Fragment - Piece of ornate ship railing, weathered wood with gold detail, hints of story
+3. Cursed Compass - Old brass compass stuck pointing at viewer, ominous glow, supernatural
+4. Mermaid's Comb - Ornate shell-and-pearl comb, iridescent, clearly magical artifact
+5. Atlantean Artifact - Glowing crystal device, ancient technology, teal/gold energy, legendary
+
+Style: Mystical and treasure-like, these are special discoveries. Magical and valuable feeling.
+```
+
+**Outputs:**
+- `assets/fish/ancient_coin_01.png`
+- `assets/fish/shipwreck_piece_01.png`
+- `assets/fish/cursed_compass_01.png`
+- `assets/fish/mermaids_comb_01.png`
+- `assets/fish/atlantean_artifact_01.png`
+
+---
+
+## Prompt 19: UI Effects - Success Celebration
 
 **Purpose:** Mystical particle effects for correct guess
 
@@ -202,7 +462,7 @@ Arrange as individual elements that can be scattered/animated. Colors: golds, te
 
 ---
 
-## Prompt 10: UI Elements - Buttons and Panels
+## Prompt 20: UI Elements - Buttons and Panels
 
 **Purpose:** UI chrome for menus and dialogs matching temple aesthetic
 
@@ -222,7 +482,7 @@ Style: Mystical temple aesthetic, ornamental but not too busy. Colors: stone gra
 
 ---
 
-## Prompt 11: Icon Set
+## Prompt 21: Icon Set
 
 **Purpose:** Small icons for UI matching mystical theme
 
@@ -266,15 +526,37 @@ Style: Clean but ornate, mystical aesthetic with gold/teal/purple color accents.
 - Animates to center screen with scale/fade
 - Fact displays with fish image
 
+---
+
+## Summary: 70 Total Creatures/Objects
+
+**Real Sea Creatures:** 20 (Prompts 5-6: common, Prompts 9-10: exotic/rare)
+**Extinct Creatures:** 5 (Prompt 11: prehistoric)
+**Mythological:** 10 (Prompts 12-13: kraken, cthulhu, leviathan, etc.)
+**Fantastical/Magical:** 20 (Prompts 7-8, 14-15: galaxy fish, phoenix koi, elemental fish, etc.)
+**Objects & Oddities:** 15 (Prompts 16-18: treasures, pollution, mysterious artifacts)
+
 ## Priority Order:
 
+**Phase 1 - Essential (Get game working):**
 1. **Temple Background** (Prompt 1) - Sets the scene
-2. **Table Surface** (Prompt 2) - Bowls need somewhere to sit
-3. **Bowl Bases & Lids** (Prompts 3-4) - Core gameplay, needed for bowl opening
-4. **Fish Batch 1** (Prompt 5) - Core gameplay content
-5. **Fantastical Fish Batch 1** (Prompt 7) - Adds magical variety
-6. **Success Particles** (Prompt 9) - Polish/feedback
-7. **UI Elements** (Prompt 10) - For journal/menus
-8. Everything else - Nice to have
+2. **Table Surface** (Prompt 2) - Bowls sit here
+3. **Bowl Bases & Lids** (Prompts 3-4) - Core gameplay, lid opening animation
 
-You can generate these in batches as time allows! Start with background and bowls to get the mystical temple look working.
+**Phase 2 - Core Content (Playable with variety):**
+4. **Real Fish Batch 1** (Prompt 5) - Common creatures
+5. **Fantastical Fish Batch 1** (Prompt 7) - Magical variety
+6. **Objects Batch 1** (Prompt 16) - Humor/surprise
+
+**Phase 3 - Expand Library (More to discover):**
+7. **Exotic Real Creatures** (Prompts 9-10) - Rare real fish
+8. **Extinct Creatures** (Prompt 11) - Legendary prehistoric
+9. **Mythological** (Prompts 12-13) - Epic legendary tier
+10. **More Fantastical** (Prompts 14-15) - Elemental/cosmic
+
+**Phase 4 - Polish:**
+11. **Objects & Pollution** (Prompts 17-18) - Dark humor, commentary
+12. **Success Particles** (Prompt 19) - Celebration effects
+13. **UI Elements** (Prompts 20-21) - Menus/journal
+
+You can generate these in batches! Start with Phase 1 to get the temple scene working, then Phase 2 for playable content.
