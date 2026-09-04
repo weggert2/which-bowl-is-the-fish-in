@@ -1,21 +1,16 @@
 mod app;
 mod config;
 
-use app::WhichBowlApp;
+use macroquad::prelude::*;
 
-fn main() -> eframe::Result<()> {
-    let options = eframe::NativeOptions {
-        viewport: egui::ViewportBuilder::default()
-            .with_inner_size([1024.0, 768.0])
-            .with_min_inner_size([800.0, 600.0])
-            .with_visible(true)
-            .with_decorations(true),
-        ..Default::default()
-    };
+#[macroquad::main("Which Bowl is the Fish In?")]
+async fn main() {
+    let mut app = app::WhichBowlApp::new().await;
 
-    eframe::run_native(
-        "Which Bowl is the Fish In?",
-        options,
-        Box::new(|cc| Ok(Box::new(WhichBowlApp::new(cc)))),
-    )
+    loop {
+        app.update();
+        app.draw();
+
+        next_frame().await;
+    }
 }

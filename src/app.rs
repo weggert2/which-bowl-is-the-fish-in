@@ -1,228 +1,194 @@
 use crate::config::GameConfig;
-use egui::{Color32, ColorImage, Pos2, Rect, Rounding, Sense, Stroke, TextureHandle, Vec2};
-use rand::Rng;
+use macroquad::prelude::*;
+use ::rand::{thread_rng, Rng};
 
-/// Main application state
 pub struct WhichBowlApp {
     config: GameConfig,
     correct_bowl: usize,
     message: String,
     hover_bowl: Option<usize>,
-    background_texture: Option<TextureHandle>,
-    table_texture: Option<TextureHandle>,
+    background_texture: Option<Texture2D>,
+    table_texture: Option<Texture2D>,
 }
 
 impl WhichBowlApp {
-    /// Create a new instance of the app
-    pub fn new(cc: &eframe::CreationContext<'_>) -> Self {
+    pub async fn new() -> Self {
         let mut app = Self {
             config: GameConfig::default(),
             correct_bowl: 0,
             message: String::new(),
             hover_bowl: None,
-            background_texture: Self::load_texture(&cc.egui_ctx, "assets/background.png", "background"),
-            table_texture: Self::load_texture(&cc.egui_ctx, "assets/table.png", "table"),
+            background_texture: load_texture_safe("assets/background.png").await,
+            table_texture: load_texture_safe("assets/table.png").await,
         };
         app.start_new_round();
         app
     }
 
-    /// Load a texture from a file, resizing if necessary
-    fn load_texture(ctx: &egui::Context, path: &str, name: &str) -> Option<TextureHandle> {
-        match image::open(path) {
-            Ok(img) => {
-                // Resize if either dimension exceeds 2048
-                let max_size = 2048;
-                let resized_img = if img.width() > max_size || img.height() > max_size {
-                    let scale = (max_size as f32 / img.width().max(img.height()) as f32).min(1.0);
-                    let new_width = (img.width() as f32 * scale) as u32;
-                    let new_height = (img.height() as f32 * scale) as u32;
-                    img.resize(new_width, new_height, image::imageops::FilterType::Lanczos3)
-                } else {
-                    img
-                };
-
-                let rgba = resized_img.to_rgba8();
-                let size = [rgba.width() as usize, rgba.height() as usize];
-                let pixels = rgba.into_raw();
-                let color_image = ColorImage::from_rgba_unmultiplied(size, &pixels);
-                Some(ctx.load_texture(name, color_image, Default::default()))
-            }
-            Err(e) => {
-                eprintln!("Failed to load texture {}: {}", path, e);
-                None
-            }
-        }
-    }
-
-    /// Start a new round by selecting a random bowl
     fn start_new_round(&mut self) {
-        let mut rng = rand::thread_rng();
+        let mut rng = thread_rng();
         self.correct_bowl = rng.gen_range(0..3);
         self.message.clear();
     }
 
-    /// Handle a bowl click
     fn on_bowl_clicked(&mut self, bowl_index: usize) {
         if bowl_index == self.correct_bowl {
             self.message = "✓ Correct! Well done!".to_string();
-            // Start new round after correct guess
             self.start_new_round();
         } else {
             self.message = "✗ Wrong bowl! Try again.".to_string();
         }
     }
 
-    /// Render a single bowl
-    fn render_bowl(
-        &mut self,
-        ui: &mut egui::Ui,
-        bowl_index: usize,
-        position: Pos2,
-    ) -> bool {
-        let bowl_size = Vec2::new(self.config.bowl_size.0, self.config.bowl_size.1);
-        let rect = Rect::from_min_size(position, bowl_size);
+    pub fn update(&mut self) {
+        let mouse_pos = mouse_position();
 
-        let is_hovered = self.hover_bowl == Some(bowl_index);
+        // Check bowl hover and clicks
+        self.hover_bowl = None;
+        for bowl_idx in 0..3 {
+            let bowl_rect = self.get_bowl_rect(bowl_idx);
+            if is_point_in_rect(mouse_pos, bowl_rect) {
+                self.hover_bowl = Some(bowl_idx);
+                if is_mouse_button_pressed(MouseButton::Left) {
+                    self.on_bowl_clicked(bowl_idx);
+                }
+            }
+        }
+    }
 
-        // Allocate space and detect interactions
-        let response = ui.allocate_rect(rect, Sense::click());
+    pub fn draw(&self) {
+        clear_background(BLACK);
 
-        // Update hover state
-        if response.hovered() {
-            self.hover_bowl = Some(bowl_index);
-            ui.ctx().set_cursor_icon(egui::CursorIcon::PointingHand);
-        } else if self.hover_bowl == Some(bowl_index) {
-            self.hover_bowl = None;
+        // Draw background
+        if let Some(bg) = &self.background_texture {
+            draw_texture_ex(
+                bg,
+                0.0,
+                0.0,
+                WHITE,
+                DrawTextureParams {
+                    dest_size: Some(Vec2::new(screen_width(), screen_height())),
+                    ..Default::default()
+                },
+            );
         }
 
-        // Bowl colors
+        // Draw table in lower portion
+        if let Some(table) = &self.table_texture {
+            let table_height = screen_height() * 0.6;
+            draw_texture_ex(
+                table,
+                0.0,
+                screen_height() - table_height,
+                WHITE,
+                DrawTextureParams {
+                    dest_size: Some(Vec2::new(screen_width(), table_height)),
+                    ..Default::default()
+                },
+            );
+        }
+
+        // Draw title
+        let title = "Which bowl is the fish in?";
+        let title_size = 48.0;
+        let title_width = measure_text(title, None, title_size as u16, 1.0).width;
+        draw_text(
+            title,
+            screen_width() / 2.0 - title_width / 2.0,
+            80.0,
+            title_size,
+            Color::from_rgba(30, 60, 90, 255),
+        );
+
+        // Draw bowls
+        for bowl_idx in 0..3 {
+            self.draw_bowl(bowl_idx);
+        }
+
+        // Draw message
+        if !self.message.is_empty() {
+            let msg_color = if self.message.contains("Correct") {
+                Color::from_rgba(50, 180, 50, 255)
+            } else {
+                Color::from_rgba(220, 50, 50, 255)
+            };
+            let msg_size = 32.0;
+            let msg_width = measure_text(&self.message, None, msg_size as u16, 1.0).width;
+            draw_text(
+                &self.message,
+                screen_width() / 2.0 - msg_width / 2.0,
+                screen_height() - 150.0,
+                msg_size,
+                msg_color,
+            );
+        }
+    }
+
+    fn get_bowl_rect(&self, bowl_idx: usize) -> Rect {
+        let bowl_width = self.config.bowl_size.0;
+        let bowl_height = self.config.bowl_size.1;
+        let total_width = 3.0 * bowl_width + 2.0 * self.config.bowl_spacing;
+        let start_x = (screen_width() - total_width) / 2.0;
+        let y = screen_height() / 2.0 - bowl_height / 2.0;
+
+        let x = start_x + bowl_idx as f32 * (bowl_width + self.config.bowl_spacing);
+
+        Rect::new(x, y, bowl_width, bowl_height)
+    }
+
+    fn draw_bowl(&self, bowl_idx: usize) {
+        let rect = self.get_bowl_rect(bowl_idx);
+        let is_hovered = self.hover_bowl == Some(bowl_idx);
+
         let fill_color = if is_hovered {
-            Color32::from_rgb(200, 180, 140) // Lighter brown on hover
+            Color::from_rgba(200, 180, 140, 255)
         } else {
-            Color32::from_rgb(160, 140, 100) // Default brown/tan
+            Color::from_rgba(160, 140, 100, 255)
         };
 
-        let stroke = if is_hovered {
-            Stroke::new(3.0, Color32::from_rgb(100, 80, 60))
+        let border_color = if is_hovered {
+            Color::from_rgba(100, 80, 60, 255)
         } else {
-            Stroke::new(2.0, Color32::from_rgb(120, 100, 80))
+            Color::from_rgba(120, 100, 80, 255)
         };
 
         // Draw bowl rectangle
-        ui.painter().rect(
-            rect,
-            Rounding::same(12.0),
-            fill_color,
-            stroke,
+        draw_rectangle(rect.x, rect.y, rect.w, rect.h, fill_color);
+        draw_rectangle_lines(
+            rect.x,
+            rect.y,
+            rect.w,
+            rect.h,
+            if is_hovered { 3.0 } else { 2.0 },
+            border_color,
         );
 
-        // Draw bowl emoji in center
-        let text_pos = rect.center();
-        ui.painter().text(
-            text_pos,
-            egui::Align2::CENTER_CENTER,
+        // Draw bowl emoji
+        let emoji_size = 50.0;
+        let emoji_width = measure_text("🥣", None, emoji_size as u16, 1.0).width;
+        draw_text(
             "🥣",
-            egui::FontId::proportional(50.0),
-            Color32::from_rgb(80, 60, 40),
+            rect.x + rect.w / 2.0 - emoji_width / 2.0,
+            rect.y + rect.h / 2.0 + emoji_size / 3.0,
+            emoji_size,
+            Color::from_rgba(80, 60, 40, 255),
         );
-
-        response.clicked()
     }
 }
 
-impl eframe::App for WhichBowlApp {
-    fn update(&mut self, ctx: &egui::Context, _frame: &mut eframe::Frame) {
-        // Force cursor to be visible
-        ctx.set_cursor_icon(egui::CursorIcon::Default);
-
-        egui::CentralPanel::default().show(ctx, |ui| {
-            // Draw background image if available
-            if let Some(bg_texture) = &self.background_texture {
-                let screen_rect = ui.max_rect();
-                ui.painter().image(
-                    bg_texture.id(),
-                    screen_rect,
-                    Rect::from_min_max(Pos2::ZERO, Pos2::new(1.0, 1.0)),
-                    Color32::WHITE,
-                );
-            }
-
-            // Draw table image if available
-            if let Some(table_texture) = &self.table_texture {
-                let screen_rect = ui.max_rect();
-                // Position table in lower portion of screen
-                let table_height = screen_rect.height() * 0.6;
-                let table_rect = Rect::from_min_max(
-                    Pos2::new(screen_rect.min.x, screen_rect.max.y - table_height),
-                    screen_rect.max,
-                );
-                ui.painter().image(
-                    table_texture.id(),
-                    table_rect,
-                    Rect::from_min_max(Pos2::ZERO, Pos2::new(1.0, 1.0)),
-                    Color32::WHITE,
-                );
-            }
-
-            ui.vertical_centered(|ui| {
-                ui.add_space(40.0);
-
-                // Title
-                ui.heading(
-                    egui::RichText::new("Which bowl is the fish in?")
-                        .size(36.0)
-                        .color(Color32::from_rgb(30, 60, 90))
-                );
-
-                ui.add_space(80.0);
-
-                // Calculate bowl positions
-                let available_width = ui.available_width();
-                let bowl_width = self.config.bowl_size.0;
-                let total_bowl_width = 3.0 * bowl_width + 2.0 * self.config.bowl_spacing;
-                let start_x = (available_width - total_bowl_width) / 2.0;
-
-                // Get current cursor position for vertical alignment
-                let cursor_pos = ui.cursor().min;
-
-                // Render three bowls horizontally
-                let mut clicked_bowl = None;
-                for bowl_idx in 0..3 {
-                    let x_offset = start_x + bowl_idx as f32 * (bowl_width + self.config.bowl_spacing);
-                    let bowl_pos = Pos2::new(
-                        cursor_pos.x + x_offset,
-                        cursor_pos.y,
-                    );
-
-                    if self.render_bowl(ui, bowl_idx, bowl_pos) {
-                        clicked_bowl = Some(bowl_idx);
-                    }
-                }
-
-                // Handle bowl click
-                if let Some(bowl_idx) = clicked_bowl {
-                    self.on_bowl_clicked(bowl_idx);
-                }
-
-                // Advance cursor past bowls
-                ui.add_space(self.config.bowl_size.1 + 60.0);
-
-                // Display message
-                if !self.message.is_empty() {
-                    let message_color = if self.message.contains("Correct") {
-                        Color32::from_rgb(50, 180, 50) // Green for correct
-                    } else {
-                        Color32::from_rgb(220, 50, 50) // Red for wrong
-                    };
-
-                    ui.label(
-                        egui::RichText::new(&self.message)
-                            .size(24.0)
-                            .color(message_color)
-                    );
-                }
-            });
-        });
+async fn load_texture_safe(path: &str) -> Option<Texture2D> {
+    match load_texture(path).await {
+        Ok(texture) => Some(texture),
+        Err(e) => {
+            eprintln!("Failed to load texture {}: {}", path, e);
+            None
+        }
     }
+}
+
+fn is_point_in_rect(point: (f32, f32), rect: Rect) -> bool {
+    point.0 >= rect.x
+        && point.0 <= rect.x + rect.w
+        && point.1 >= rect.y
+        && point.1 <= rect.y + rect.h
 }
