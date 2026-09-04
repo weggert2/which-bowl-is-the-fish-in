@@ -9,7 +9,7 @@ async fn main() {
     let mut app = app::WhichBowlApp::new().await;
 
     loop {
-        app.update();
+        app.update().await;
         app.draw();
 
         next_frame().await;

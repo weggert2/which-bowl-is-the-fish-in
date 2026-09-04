@@ -48,12 +48,12 @@ impl Rarity {
     /// Returns the display color for UI rendering (macroquad Color)
     pub fn color(&self) -> Color {
         match self {
-            Rarity::Common    => Color::from_rgba(155, 155, 155, 255), // Gray
-            Rarity::Uncommon  => Color::from_rgba(85, 255, 85, 255),   // Green
-            Rarity::Rare      => Color::from_rgba(85, 170, 255, 255),  // Blue
-            Rarity::Epic      => Color::from_rgba(200, 85, 255, 255),  // Purple
-            Rarity::Legendary => Color::from_rgba(255, 170, 0, 255),   // Orange
-            Rarity::Mythic    => Color::from_rgba(255, 85, 255, 255),  // Magenta
+            Rarity::Common    => Color::from_rgba(128, 128, 128, 255), // Gray
+            Rarity::Uncommon  => Color::from_rgba(50, 200, 50, 255),   // Green
+            Rarity::Rare      => Color::from_rgba(50, 100, 255, 255),  // Blue
+            Rarity::Epic      => Color::from_rgba(150, 50, 255, 255),  // Purple
+            Rarity::Legendary => Color::from_rgba(255, 150, 50, 255),  // Orange
+            Rarity::Mythic    => Color::from_rgba(255, 215, 0, 255),   // Gold
         }
     }
 
