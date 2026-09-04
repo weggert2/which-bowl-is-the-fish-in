@@ -82,7 +82,7 @@ All have similar dimensions to their bowl bases. Mystical temple aesthetic.
 
 **Prompt:**
 ```
-Create a collection of 5 PNG images (512x512px each, transparent background) of real sea creatures, shown from the side view, cartoonish but recognizable style. Each creature should be vibrant, colorful, and small enough to have been hiding in a mystical bowl. Include:
+Create a collection of 5 PNG images (512x512px each, transparent background) of real sea creatures, shown from the side view, realistic, detailed style. Each creature should be vibrant, colorful, and small enough to have been hiding in a mystical bowl. Include:
 
 1. Clownfish (orange with white stripes)
 2. Blue Tang (bright blue with yellow tail)
@@ -90,7 +90,7 @@ Create a collection of 5 PNG images (512x512px each, transparent background) of 
 4. Seahorse (yellow/gold, upright pose)
 5. Jellyfish (translucent with purple/pink glow)
 
-Style: Slightly stylized but clearly identifiable, friendly appearance, clean silhouettes. Should fit the mystical temple game aesthetic. Similar art style across all fish.
+Style: Photorealistic but clearly identifiable, natural, lifelike appearance, highly detailed realistic textures, clean silhouettes. Should fit the mystical temple game aesthetic. Similar art style across all fish.
 ```
 
 **Outputs:** 
@@ -116,7 +116,7 @@ Create 5 more PNG images (512x512px, transparent background) of sea creatures, m
 4. Eel (long, serpentine, dark blue with spots)
 5. Starfish (orange/red, five-pointed)
 
-Style: Same as Batch 1 - cartoonish but recognizable, vibrant colors, friendly. Fits mystical temple aesthetic.
+Style: Same as Batch 1 - realistic, detailed, vibrant colors, natural, lifelike appearance, highly detailed realistic textures. Fits mystical temple aesthetic.
 ```
 
 **Outputs:**
@@ -130,7 +130,7 @@ Style: Same as Batch 1 - cartoonish but recognizable, vibrant colors, friendly. 
 
 ## Prompt 7: Fantastical Fish Collection (Batch 1)
 
-**Purpose:** Made-up creatures with whimsical magical designs
+**Purpose:** Made-up creatures with magical designs
 
 **Prompt:**
 ```
@@ -142,7 +142,7 @@ Create 5 PNG images (512x512px, transparent background) of FANTASTICAL sea creat
 4. Void Whale - Tiny whale (bowl-sized) that's pure black with white constellation dots, ethereal
 5. Clockwork Crab - Steampunk mechanical crab with visible brass gears, copper shell, tiny crank on back
 
-Style: Whimsical fantasy, magical/mystical, but still "cute" not scary. Should fit the game's lighthearted mystical temple tone.
+Style: Photorealistic rendering with highly detailed realistic textures and natural lighting, magical/mystical subjects. Should fit the game's mystical temple tone with realistic, detailed appearance.
 ```
 
 **Outputs:**
@@ -160,7 +160,7 @@ Style: Whimsical fantasy, magical/mystical, but still "cute" not scary. Should f
 
 **Prompt:**
 ```
-Create 5 more fantastical creatures (512x512px PNG, transparent background), matching previous mystical/magical style:
+Create 5 more fantastical creatures (512x512px PNG, transparent background), matching previous realistic rendering style:
 
 1. Rainbow Squid - Squid with tentacles that fade through rainbow colors, bioluminescent spots, ethereal glow
 2. Cloud Pufferfish - Pufferfish made of fluffy white cloud material, tiny lightning bolts, floats magically
@@ -168,7 +168,7 @@ Create 5 more fantastical creatures (512x512px PNG, transparent background), mat
 4. Origami Octopus - Octopus that looks like it's folded from enchanted paper, crisp edges, pastel magical colors
 5. Plasma Eel - Eel made of glowing electric plasma, neon blue/purple energy tendrils, mystical energy
 
-Style: Fantasy but friendly, magical/mystical elements, whimsical not creepy. Fits temple aesthetic.
+Style: Photorealistic rendering with highly detailed realistic textures, magical/mystical elements, natural lighting. Fits temple aesthetic.
 ```
 
 **Outputs:**
@@ -186,7 +186,7 @@ Style: Fantasy but friendly, magical/mystical elements, whimsical not creepy. Fi
 
 **Prompt:**
 ```
-Create 5 PNG images (512x512px, transparent background) of exotic/rare REAL sea creatures, cartoonish style matching previous batches:
+Create 5 PNG images (512x512px, transparent background) of exotic/rare REAL sea creatures, realistic, detailed style matching previous batches:
 
 1. Coelacanth - Ancient "living fossil" fish, blue-gray with distinctive lobed fins, prehistoric look
 2. Blobfish - Pink/gray gelatinous appearance, sad droopy face, endearingly ugly
@@ -194,7 +194,7 @@ Create 5 PNG images (512x512px, transparent background) of exotic/rare REAL sea 
 4. Axolotl - Pink/white salamander with external gills, perpetual smile, cute
 5. Nautilus - Spiral chambered shell, brown/cream stripes, tentacles emerging
 
-Style: Cartoonish but recognizable, maintains friendly/whimsical tone. These are weird but real!
+Style: Photorealistic but recognizable, natural, lifelike appearance, highly detailed realistic textures. These are weird but real!
 ```
 
 **Outputs:**
@@ -220,7 +220,7 @@ Create 5 more PNG images (512x512px, transparent background) of exotic real sea 
 4. Lionfish - Dramatic striped fins like a mane, red/white/black, venomous but beautiful
 5. Giant Isopod - Large pill bug creature, segmented gray/blue armor, alien-looking
 
-Style: Same cartoonish style, weird but wonderful real creatures.
+Style: Photorealistic, highly detailed realistic textures, weird but wonderful real creatures.
 ```
 
 **Outputs:**
@@ -238,7 +238,7 @@ Style: Same cartoonish style, weird but wonderful real creatures.
 
 **Prompt:**
 ```
-Create 5 PNG images (512x512px, transparent background) of common fish species, cartoonish style matching previous batches:
+Create 5 PNG images (512x512px, transparent background) of common fish species, realistic, detailed style matching previous batches:
 
 1. Tuna - Sleek torpedo-shaped body, blue-gray back, silver belly, powerful swimmer
 2. Salmon - Pink/orange body, silver scales, distinctive hooked jaw, stream fish
@@ -246,7 +246,7 @@ Create 5 PNG images (512x512px, transparent background) of common fish species, 
 4. Haddock - Similar to cod but smaller, dark lateral line, white belly
 5. Sardine - Small silvery fish, blue-green back, schooling fish appearance
 
-Style: Cartoonish but recognizable as food fish, friendly appearance, realistic coloring.
+Style: Photorealistic but recognizable as food fish, natural, lifelike appearance, highly detailed realistic textures, realistic coloring.
 ```
 
 **Outputs:**
@@ -272,7 +272,7 @@ Create 5 more PNG images (512x512px, transparent background) of common fish:
 4. Catfish - Barbels/whiskers on face, brown/gray body, bottom feeder, friendly face
 5. Bass (Largemouth) - Green body, large mouth, spotted pattern, freshwater game fish
 
-Style: Same friendly cartoonish style, recognizable species.
+Style: Photorealistic, highly detailed realistic textures, recognizable species.
 ```
 
 **Outputs:**
@@ -298,7 +298,7 @@ Create 5 PNG images (512x512px, transparent background) of tropical reef fish:
 4. Yellow Tang - Bright sunshine yellow, surgical spine on tail, oval shape
 5. Damselfish - Small, bright blue or yellow-black striped, feisty personality
 
-Style: Vibrant tropical colors, cartoonish reef fish, whimsical and colorful.
+Style: Vibrant tropical colors, photorealistic reef fish, highly detailed realistic textures, natural and colorful.
 ```
 
 **Outputs:**
@@ -324,7 +324,7 @@ Create 5 more PNG images (512x512px, transparent background) of tropical fish:
 4. Filefish - Rough skin texture, mottled brown/tan, small mouth, quirky appearance
 5. Boxfish - Cube-shaped body, yellow with black spots, rigid appearance, adorable
 
-Style: Tropical and colorful, cartoonish, each with distinctive shape.
+Style: Tropical and colorful, photorealistic, highly detailed realistic textures, each with distinctive shape.
 ```
 
 **Outputs:**
@@ -342,7 +342,7 @@ Style: Tropical and colorful, cartoonish, each with distinctive shape.
 
 **Prompt:**
 ```
-Create 5 PNG images (512x512px, transparent background) of deep sea creatures, cartoonish but eerie:
+Create 5 PNG images (512x512px, transparent background) of deep sea creatures, realistic, detailed but eerie:
 
 1. Anglerfish - Black body, huge mouth with teeth, bioluminescent lure dangling from head
 2. Gulper Eel - Massive hinged mouth, small body, black, balloon-like jaw
@@ -350,7 +350,7 @@ Create 5 PNG images (512x512px, transparent background) of deep sea creatures, c
 4. Viperfish - Long fangs, bioluminescent photophores along body, snake-like, menacing
 5. Hatchetfish - Silver body, extremely flat, blade-like shape, tiny eyes
 
-Style: Creepy but cartoonish, bioluminescent glows, deep sea mystery. Friendly enough for game.
+Style: Photorealistic, highly detailed realistic textures, bioluminescent glows, deep sea mystery. Natural, lifelike appearance.
 ```
 
 **Outputs:**
@@ -376,7 +376,7 @@ Create 5 more PNG images (512x512px, transparent background) of deep sea fish:
 4. Chimaera (Ratfish) - Elephant-like snout, large eyes, wing-like fins, ghostly appearance
 5. Snailfish - Gelatinous pink/purple body, tadpole shape, deepest living fish, squishy
 
-Style: Deep sea weirdness, cartoonish but strange. Bioluminescence where appropriate.
+Style: Photorealistic, highly detailed realistic textures, deep sea weirdness. Bioluminescence where appropriate.
 ```
 
 **Outputs:**
@@ -402,7 +402,7 @@ Create 5 PNG images (512x512px, transparent background) of crustaceans and shell
 4. Scallop - Round shell with radiating ridges, brown/orange, visible eyes at shell edge
 5. Mussel - Dark blue-black elongated shell, clustered appearance, hinged opening
 
-Style: Cartoonish crustaceans, recognizable, friendly but authentic details.
+Style: Photorealistic crustaceans, recognizable, highly detailed realistic textures, authentic details.
 ```
 
 **Outputs:**
@@ -428,7 +428,7 @@ Create 5 more PNG images (512x512px, transparent background) of shellfish:
 4. Clam - Rounded bivalve shell, tan/cream with growth rings, partially buried look
 5. Barnacle - Volcano-shaped white shell with feathery feeding appendages emerging
 
-Style: Cartoonish shellfish, each with distinctive appearance, whimsical details.
+Style: Photorealistic shellfish, highly detailed realistic textures, each with distinctive appearance, natural details.
 ```
 
 **Outputs:**
@@ -454,7 +454,7 @@ Create 5 PNG images (512x512px, transparent background) of sharks and rays:
 4. Eagle Ray - Spotted body, distinctive head, wing-like fins, elegant swimmer
 5. Sawfish - Long saw-like rostrum with teeth, ray-like body, prehistoric appearance
 
-Style: Cartoonish but recognizable species, friendly interpretation, dynamic poses.
+Style: Photorealistic but recognizable species, highly detailed realistic textures, natural, lifelike appearance, dynamic poses.
 ```
 
 **Outputs:**
@@ -480,7 +480,7 @@ Create 5 PNG images (512x512px, transparent background) of unusual real creature
 4. Cone Snail - Beautiful patterned conical shell, geometric designs, deceptively dangerous
 5. Christmas Tree Worm - Colorful spiral feeding fans (red, blue, yellow), tube-dwelling, festive appearance
 
-Style: Weird but real, cartoonish, emphasize unusual features. Educational and whimsical.
+Style: Weird but real, photorealistic, highly detailed realistic textures, emphasize unusual features. Educational and natural, lifelike appearance.
 ```
 
 **Outputs:**
@@ -498,7 +498,7 @@ Style: Weird but real, cartoonish, emphasize unusual features. Educational and w
 
 **Prompt:**
 ```
-Create 5 PNG images (512x512px, transparent background) of EXTINCT prehistoric sea creatures, cartoonish but impressive:
+Create 5 PNG images (512x512px, transparent background) of EXTINCT prehistoric sea creatures, realistic, detailed and impressive:
 
 1. Megalodon - Massive shark (bowl-sized representation), huge teeth, gray with scars, ancient predator
 2. Dunkleosteus - Armored prehistoric fish, bony plated head, powerful jaws, olive/gray
@@ -506,7 +506,7 @@ Create 5 PNG images (512x512px, transparent background) of EXTINCT prehistoric s
 4. Trilobite - Segmented prehistoric arthropod, brown with ridged exoskeleton, alien bug-like
 5. Helicoprion - Bizarre shark with spiral tooth whorl, gray with distinctive circular saw jaw
 
-Style: Slightly more epic/impressive than common fish, but still friendly cartoon style. Ancient mysteries!
+Style: Photorealistic and impressive, highly detailed realistic textures, natural, lifelike appearance. Ancient mysteries!
 ```
 
 **Outputs:**
@@ -524,7 +524,7 @@ Style: Slightly more epic/impressive than common fish, but still friendly cartoo
 
 **Prompt:**
 ```
-Create 5 PNG images (512x512px, transparent background) of MYTHOLOGICAL sea creatures (bowl-sized versions), mystical/epic style:
+Create 5 PNG images (512x512px, transparent background) of MYTHOLOGICAL sea creatures (bowl-sized versions), realistic and epic:
 
 1. Baby Kraken - Small octopus-like creature with multiple tentacles, dark purple/blue, glowing eyes, ominous but cute
 2. Cthulhu Spawn - Mini version with octopus head, dragon wings, tentacle face, green/purple, eldritch but whimsical
@@ -532,7 +532,7 @@ Create 5 PNG images (512x512px, transparent background) of MYTHOLOGICAL sea crea
 4. Hydra Hatchling - Multi-headed serpent (3-4 heads), teal/green scales, small but fierce
 5. Sea Serpent - Long sinuous body, dragon-like head, blue-green scales with mane, classic medieval style
 
-Style: Epic and mystical but maintains the game's friendly tone. Legendary but not terrifying.
+Style: Photorealistic rendering with highly detailed realistic textures, epic and mystical, natural lighting. Legendary but maintains accessible tone.
 ```
 
 **Outputs:**
@@ -558,7 +558,7 @@ Create 5 more PNG images (512x512px, transparent background) of mythological sea
 4. Aspidochelone - Island turtle, mossy shell with tiny trees growing on it, gigantic but miniaturized
 5. Hafgufa - Norse sea monster, whale-like with gaping maw, gray with barnacles and seaweed
 
-Style: Mythical and ancient, but cartoonish. Legendary creatures from world mythology.
+Style: Photorealistic rendering with highly detailed realistic textures, mythical and ancient, natural lighting. Legendary creatures from world mythology.
 ```
 
 **Outputs:**
@@ -576,7 +576,7 @@ Style: Mythical and ancient, but cartoonish. Legendary creatures from world myth
 
 **Prompt:**
 ```
-Create 5 more fantastical sea creatures (512x512px PNG, transparent background), magical/mystical style:
+Create 5 more fantastical sea creatures (512x512px PNG, transparent background), realistic rendering of magical subjects:
 
 1. Neon Nudibranch - Glowing sea slug with electric neon colors (pink/cyan/yellow), trails of light
 2. Quantum Quid - Squid that's simultaneously multiple colors/poses, quantum superposition effect, glitchy appearance
@@ -584,7 +584,7 @@ Create 5 more fantastical sea creatures (512x512px PNG, transparent background),
 4. Ember Urchin - Sea urchin with spines made of flame/ember, orange/red glow, warm light
 5. Prism Perch - Small fish that refracts light into rainbows, crystalline scales, spectrum effect
 
-Style: Magical and creative, mystical temple aesthetic. Impossible creatures.
+Style: Photorealistic rendering with highly detailed realistic textures, magical and creative subjects, natural lighting, mystical temple aesthetic. Impossible creatures rendered realistically.
 ```
 
 **Outputs:**
@@ -610,7 +610,7 @@ Create 5 elemental/cosmic fantastical creatures (512x512px PNG, transparent back
 4. Cosmic Carp - Koi fish containing a miniature galaxy, swirling stars and nebulas inside
 5. Aether Anchovy - Tiny fish made of pure magical energy, purple/white wisps, ethereal and ghostly
 
-Style: Elemental and magical, each represents a different force/element. Mystical and powerful.
+Style: Photorealistic rendering with highly detailed realistic textures, elemental and magical subjects, natural lighting. Each represents a different force/element. Mystical and powerful, rendered realistically.
 ```
 
 **Outputs:**
