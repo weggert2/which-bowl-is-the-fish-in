@@ -4,16 +4,25 @@ Asset creation prompts for "Which Bowl is the Fish In" game.
 
 ---
 
-## Prompt 1: Ornate Bowl
+## Prompt 1: Three Ornate Bowls
 
-**Purpose:** Main bowl image (reused for all 3 bowls)
+**Purpose:** Three distinct bowls for the game (left, center, right positions)
 
 **Prompt:**
 ```
-Create a PNG image (512x512px, transparent background) of an ornate decorative bowl viewed from a slight angle. The bowl should be ceramic or porcelain with intricate patterns - think Asian-inspired designs with blue and white glazing, or Middle Eastern patterns with gold accents. The bowl should look substantial enough to hide a fish, slightly tilted toward the viewer to show depth. Empty interior. Art style: slightly whimsical but detailed, like a high-quality game asset. Clean edges for alpha channel.
+Create 3 PNG images (512x512px each, transparent background) of ornate decorative bowls, each with a unique style but similar quality/detail level. Viewed from a slight angle, slightly tilted toward viewer. All should look substantial enough to hide a fish. Empty interiors. Art style: slightly whimsical but detailed, high-quality game assets.
+
+Bowl 1 (Left): Asian-inspired ceramic with blue and white glazing, intricate floral or dragon patterns
+Bowl 2 (Center): Middle Eastern style with gold and turquoise accents, geometric patterns
+Bowl 3 (Right): Mediterranean style with warm terracotta and olive green, hand-painted rustic patterns
+
+All three should feel like they belong together (same art style, similar size) but be visually distinct.
 ```
 
-**Output:** `assets/bowls/bowl.png`
+**Outputs:** 
+- `assets/bowls/bowl_left.png`
+- `assets/bowls/bowl_center.png`
+- `assets/bowls/bowl_right.png`
 
 ---
 
