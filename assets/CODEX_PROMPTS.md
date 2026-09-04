@@ -232,7 +232,267 @@ Style: Same cartoonish style, weird but wonderful real creatures.
 
 ---
 
-## Prompt 11: Extinct Prehistoric Creatures
+## Prompt 11: Common Fish (Batch 1)
+
+**Purpose:** Common edible fish species - familiar real creatures
+
+**Prompt:**
+```
+Create 5 PNG images (512x512px, transparent background) of common fish species, cartoonish style matching previous batches:
+
+1. Tuna - Sleek torpedo-shaped body, blue-gray back, silver belly, powerful swimmer
+2. Salmon - Pink/orange body, silver scales, distinctive hooked jaw, stream fish
+3. Cod - Stout body, mottled brown/gray, distinctive barbel on chin, bottom dweller look
+4. Haddock - Similar to cod but smaller, dark lateral line, white belly
+5. Sardine - Small silvery fish, blue-green back, schooling fish appearance
+
+Style: Cartoonish but recognizable as food fish, friendly appearance, realistic coloring.
+```
+
+**Outputs:**
+- `assets/fish/tuna_01.png`
+- `assets/fish/salmon_01.png`
+- `assets/fish/cod_01.png`
+- `assets/fish/haddock_01.png`
+- `assets/fish/sardine_01.png`
+
+---
+
+## Prompt 12: Common Fish (Batch 2)
+
+**Purpose:** More familiar fish species
+
+**Prompt:**
+```
+Create 5 more PNG images (512x512px, transparent background) of common fish:
+
+1. Mackerel - Streamlined body, blue-green with black tiger stripes, forked tail
+2. Herring - Small silver fish, blue-green back, schooling fish, compressed body
+3. Anchovy - Tiny silver fish, large eyes, pointed snout, delicate appearance
+4. Catfish - Barbels/whiskers on face, brown/gray body, bottom feeder, friendly face
+5. Bass (Largemouth) - Green body, large mouth, spotted pattern, freshwater game fish
+
+Style: Same friendly cartoonish style, recognizable species.
+```
+
+**Outputs:**
+- `assets/fish/mackerel_01.png`
+- `assets/fish/herring_01.png`
+- `assets/fish/anchovy_01.png`
+- `assets/fish/catfish_01.png`
+- `assets/fish/bass_01.png`
+
+---
+
+## Prompt 13: Tropical Fish (Batch 1)
+
+**Purpose:** Colorful tropical reef fish
+
+**Prompt:**
+```
+Create 5 PNG images (512x512px, transparent background) of tropical reef fish:
+
+1. Parrotfish - Bright blue-green body, beak-like mouth, chunky build, vibrant colors
+2. Triggerfish - Bold patterns, yellow/black or blue, distinctive dorsal spine, oval body
+3. Butterflyfish - Yellow with black stripes, disc-shaped body, delicate appearance
+4. Yellow Tang - Bright sunshine yellow, surgical spine on tail, oval shape
+5. Damselfish - Small, bright blue or yellow-black striped, feisty personality
+
+Style: Vibrant tropical colors, cartoonish reef fish, whimsical and colorful.
+```
+
+**Outputs:**
+- `assets/fish/parrotfish_01.png`
+- `assets/fish/triggerfish_01.png`
+- `assets/fish/butterflyfish_01.png`
+- `assets/fish/yellow_tang_01.png`
+- `assets/fish/damselfish_01.png`
+
+---
+
+## Prompt 14: Tropical Fish (Batch 2)
+
+**Purpose:** More tropical species
+
+**Prompt:**
+```
+Create 5 more PNG images (512x512px, transparent background) of tropical fish:
+
+1. Grouper - Large mouth, spotted brown/orange pattern, chunky body, reef predator
+2. Wrasse - Elongated body, bright colors (blue, green, yellow), active swimmer
+3. Surgeonfish - Blue-gray body, yellow tail, scalpel-like spine, peaceful look
+4. Filefish - Rough skin texture, mottled brown/tan, small mouth, quirky appearance
+5. Boxfish - Cube-shaped body, yellow with black spots, rigid appearance, adorable
+
+Style: Tropical and colorful, cartoonish, each with distinctive shape.
+```
+
+**Outputs:**
+- `assets/fish/grouper_01.png`
+- `assets/fish/wrasse_01.png`
+- `assets/fish/surgeonfish_01.png`
+- `assets/fish/filefish_01.png`
+- `assets/fish/boxfish_01.png`
+
+---
+
+## Prompt 15: Deep Sea Creatures (Batch 1)
+
+**Purpose:** Bizarre deep ocean fish - mysterious tier
+
+**Prompt:**
+```
+Create 5 PNG images (512x512px, transparent background) of deep sea creatures, cartoonish but eerie:
+
+1. Anglerfish - Black body, huge mouth with teeth, bioluminescent lure dangling from head
+2. Gulper Eel - Massive hinged mouth, small body, black, balloon-like jaw
+3. Barreleye Fish - Transparent head dome with visible eyes inside, delicate body
+4. Viperfish - Long fangs, bioluminescent photophores along body, snake-like, menacing
+5. Hatchetfish - Silver body, extremely flat, blade-like shape, tiny eyes
+
+Style: Creepy but cartoonish, bioluminescent glows, deep sea mystery. Friendly enough for game.
+```
+
+**Outputs:**
+- `assets/fish/anglerfish_01.png`
+- `assets/fish/gulper_eel_01.png`
+- `assets/fish/barreleye_01.png`
+- `assets/fish/viperfish_01.png`
+- `assets/fish/hatchetfish_01.png`
+
+---
+
+## Prompt 16: Deep Sea Creatures (Batch 2)
+
+**Purpose:** More deep ocean dwellers
+
+**Prompt:**
+```
+Create 5 more PNG images (512x512px, transparent background) of deep sea fish:
+
+1. Dragonfish - Black body, bioluminescent barbel under chin, sharp teeth, alien appearance
+2. Fangtooth - Disproportionately large teeth, small dark body, prominent jaw, scary but small
+3. Oarfish - Extremely long ribbon-like silver body, red crest/fins, sea serpent appearance
+4. Chimaera (Ratfish) - Elephant-like snout, large eyes, wing-like fins, ghostly appearance
+5. Snailfish - Gelatinous pink/purple body, tadpole shape, deepest living fish, squishy
+
+Style: Deep sea weirdness, cartoonish but strange. Bioluminescence where appropriate.
+```
+
+**Outputs:**
+- `assets/fish/dragonfish_01.png`
+- `assets/fish/fangtooth_01.png`
+- `assets/fish/oarfish_01.png`
+- `assets/fish/chimaera_01.png`
+- `assets/fish/snailfish_01.png`
+
+---
+
+## Prompt 17: Crustaceans & Shellfish (Batch 1)
+
+**Purpose:** Real crabs, lobsters, and shellfish
+
+**Prompt:**
+```
+Create 5 PNG images (512x512px, transparent background) of crustaceans and shellfish:
+
+1. Blue Crab - Bright blue claws and legs, brown/green shell, claws raised defensively
+2. Lobster - Red/brown lobster with large claws, long antennae, segmented tail
+3. Prawn - Pink/orange translucent shrimp, long antennae, curled body
+4. Scallop - Round shell with radiating ridges, brown/orange, visible eyes at shell edge
+5. Mussel - Dark blue-black elongated shell, clustered appearance, hinged opening
+
+Style: Cartoonish crustaceans, recognizable, friendly but authentic details.
+```
+
+**Outputs:**
+- `assets/fish/blue_crab_01.png`
+- `assets/fish/lobster_01.png`
+- `assets/fish/prawn_01.png`
+- `assets/fish/scallop_01.png`
+- `assets/fish/mussel_01.png`
+
+---
+
+## Prompt 18: Crustaceans & Shellfish (Batch 2)
+
+**Purpose:** More shellfish and crustaceans
+
+**Prompt:**
+```
+Create 5 more PNG images (512x512px, transparent background) of shellfish:
+
+1. Hermit Crab - Small crab in a borrowed spiral shell, one large claw, adorable eyes
+2. Spider Crab - Long spindly legs, small body, orange/red, spiky shell
+3. Oyster - Rough gray/brown shell, slightly open showing pearlescent interior
+4. Clam - Rounded bivalve shell, tan/cream with growth rings, partially buried look
+5. Barnacle - Volcano-shaped white shell with feathery feeding appendages emerging
+
+Style: Cartoonish shellfish, each with distinctive appearance, whimsical details.
+```
+
+**Outputs:**
+- `assets/fish/hermit_crab_01.png`
+- `assets/fish/spider_crab_01.png`
+- `assets/fish/oyster_01.png`
+- `assets/fish/clam_01.png`
+- `assets/fish/barnacle_01.png`
+
+---
+
+## Prompt 19: Sharks & Rays
+
+**Purpose:** Various shark and ray species
+
+**Prompt:**
+```
+Create 5 PNG images (512x512px, transparent background) of sharks and rays:
+
+1. Reef Shark - Sleek gray shark, white-tipped fins, streamlined body, alert but not aggressive
+2. Nurse Shark - Brown, bottom-dwelling, barbels on face, docile appearance
+3. Stingray - Flat diamond-shaped body, brown with spots, long whip tail, graceful
+4. Eagle Ray - Spotted body, distinctive head, wing-like fins, elegant swimmer
+5. Sawfish - Long saw-like rostrum with teeth, ray-like body, prehistoric appearance
+
+Style: Cartoonish but recognizable species, friendly interpretation, dynamic poses.
+```
+
+**Outputs:**
+- `assets/fish/reef_shark_01.png`
+- `assets/fish/nurse_shark_01.png`
+- `assets/fish/stingray_01.png`
+- `assets/fish/eagle_ray_01.png`
+- `assets/fish/sawfish_01.png`
+
+---
+
+## Prompt 20: Unusual But Real Creatures
+
+**Purpose:** Weird and wonderful real sea creatures
+
+**Prompt:**
+```
+Create 5 PNG images (512x512px, transparent background) of unusual real creatures:
+
+1. Mimic Octopus - Brown/white striped octopus, shapeshifting posture, intelligent eyes
+2. Frogfish - Lumpy textured body, camouflaged appearance, fishing lure on head, ambush predator look
+3. Sea Hare (Sea Slug) - Large purple/brown slug with rabbit-ear-like rhinophores, soft body
+4. Cone Snail - Beautiful patterned conical shell, geometric designs, deceptively dangerous
+5. Christmas Tree Worm - Colorful spiral feeding fans (red, blue, yellow), tube-dwelling, festive appearance
+
+Style: Weird but real, cartoonish, emphasize unusual features. Educational and whimsical.
+```
+
+**Outputs:**
+- `assets/fish/mimic_octopus_01.png`
+- `assets/fish/frogfish_01.png`
+- `assets/fish/sea_hare_01.png`
+- `assets/fish/cone_snail_01.png`
+- `assets/fish/christmas_tree_worm_01.png`
+
+---
+
+## Prompt 21: Extinct Prehistoric Creatures
 
 **Purpose:** Ancient creatures that no longer exist - legendary tier
 
@@ -258,7 +518,7 @@ Style: Slightly more epic/impressive than common fish, but still friendly cartoo
 
 ---
 
-## Prompt 12: Mythological Sea Creatures (Batch 1)
+## Prompt 22: Mythological Sea Creatures (Batch 1)
 
 **Purpose:** Legendary creatures from mythology and folklore - epic/legendary rarity
 
@@ -284,7 +544,7 @@ Style: Epic and mystical but maintains the game's friendly tone. Legendary but n
 
 ---
 
-## Prompt 13: Mythological Sea Creatures (Batch 2)
+## Prompt 23: Mythological Sea Creatures (Batch 2)
 
 **Purpose:** More legendary creatures from various mythologies
 
@@ -310,7 +570,7 @@ Style: Mythical and ancient, but cartoonish. Legendary creatures from world myth
 
 ---
 
-## Prompt 14: Fantastical Fish (Batch 3) - More Magical Creatures
+## Prompt 24: Fantastical Fish (Batch 3) - More Magical Creatures
 
 **Purpose:** Additional invented magical creatures for variety
 
@@ -336,7 +596,7 @@ Style: Magical and creative, mystical temple aesthetic. Impossible creatures.
 
 ---
 
-## Prompt 15: Fantastical Fish (Batch 4) - Elemental & Cosmic
+## Prompt 25: Fantastical Fish (Batch 4) - Elemental & Cosmic
 
 **Purpose:** Elemental and cosmic-themed magical creatures
 
@@ -362,7 +622,7 @@ Style: Elemental and magical, each represents a different force/element. Mystica
 
 ---
 
-## Prompt 16: Objects & Oddities - What Doesn't Belong?
+## Prompt 26: Objects & Oddities - What Doesn't Belong?
 
 **Purpose:** Random objects and humorous "catches" - common to uncommon rarity
 
