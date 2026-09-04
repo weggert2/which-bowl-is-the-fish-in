@@ -1,4 +1,5 @@
 use crate::config::GameConfig;
+use crate::fish::{FishLibrary, Fish, Rarity, load_from_toml};
 use macroquad::prelude::*;
 use ::rand::{thread_rng, Rng};
 
@@ -9,10 +10,27 @@ pub struct WhichBowlApp {
     hover_bowl: Option<usize>,
     background_texture: Option<Texture2D>,
     table_texture: Option<Texture2D>,
+    bowl_textures: [Option<Texture2D>; 3],
+    lid_textures: [Option<Texture2D>; 3],
+    fish_library: FishLibrary,
+    current_fish: Option<Fish>,
+    current_rarity: Option<Rarity>,
 }
 
 impl WhichBowlApp {
     pub async fn new() -> Self {
+        // Load fish library
+        let mut fish_library = FishLibrary::new();
+        match load_from_toml("assets/fish_library.toml", &mut fish_library) {
+            Ok(count) => {
+                println!("Loaded {} fish successfully", count);
+            }
+            Err(e) => {
+                eprintln!("Error loading fish library: {}", e);
+                eprintln!("Continuing with empty library...");
+            }
+        }
+
         let mut app = Self {
             config: GameConfig::default(),
             correct_bowl: 0,
@@ -20,6 +38,19 @@ impl WhichBowlApp {
             hover_bowl: None,
             background_texture: load_texture_safe("assets/background.png").await,
             table_texture: load_texture_safe("assets/table.png").await,
+            bowl_textures: [
+                load_texture_safe("assets/bowls/bowl1.png").await,
+                load_texture_safe("assets/bowls/bowl2.png").await,
+                load_texture_safe("assets/bowls/bowl3.png").await,
+            ],
+            lid_textures: [
+                load_texture_safe("assets/bowls/lid1.png").await,
+                load_texture_safe("assets/bowls/lid2.png").await,
+                load_texture_safe("assets/bowls/lid3.png").await,
+            ],
+            fish_library,
+            current_fish: None,
+            current_rarity: None,
         };
         app.start_new_round();
         app
@@ -29,11 +60,33 @@ impl WhichBowlApp {
         let mut rng = thread_rng();
         self.correct_bowl = rng.gen_range(0..3);
         self.message.clear();
+
+        // Roll rarity first
+        let rarity = Rarity::roll_random();
+        self.current_rarity = Some(rarity);
+
+        // Then select a random fish
+        match self.fish_library.select_random_fish() {
+            Ok(fish) => {
+                self.current_fish = Some(fish.clone());
+                println!("Selected: {} {} (rarity rolled separately)", rarity, fish.name);
+            }
+            Err(e) => {
+                eprintln!("Error selecting fish: {}", e);
+                self.current_fish = None;
+                self.current_rarity = None;
+            }
+        }
     }
 
     fn on_bowl_clicked(&mut self, bowl_index: usize) {
         if bowl_index == self.correct_bowl {
-            self.message = "✓ Correct! Well done!".to_string();
+            // Show what was found with rarity
+            if let (Some(fish), Some(rarity)) = (&self.current_fish, &self.current_rarity) {
+                self.message = format!("You found a {} {}!", rarity, fish.name);
+            } else {
+                self.message = "✓ Correct! Well done!".to_string();
+            }
             self.start_new_round();
         } else {
             self.message = "✗ Wrong bowl! Try again.".to_string();
@@ -140,39 +193,60 @@ impl WhichBowlApp {
         let rect = self.get_bowl_rect(bowl_idx);
         let is_hovered = self.hover_bowl == Some(bowl_idx);
 
-        let fill_color = if is_hovered {
-            Color::from_rgba(200, 180, 140, 255)
+        // Draw bowl base
+        if let Some(bowl_texture) = &self.bowl_textures[bowl_idx] {
+            let tint = if is_hovered {
+                Color::from_rgba(255, 255, 200, 255) // Slight yellow tint on hover
+            } else {
+                WHITE
+            };
+
+            draw_texture_ex(
+                bowl_texture,
+                rect.x,
+                rect.y,
+                tint,
+                DrawTextureParams {
+                    dest_size: Some(Vec2::new(rect.w, rect.h)),
+                    ..Default::default()
+                },
+            );
         } else {
-            Color::from_rgba(160, 140, 100, 255)
-        };
+            // Fallback to placeholder if texture failed to load
+            draw_rectangle(rect.x, rect.y, rect.w, rect.h, Color::from_rgba(160, 140, 100, 255));
+        }
 
-        let border_color = if is_hovered {
-            Color::from_rgba(100, 80, 60, 255)
-        } else {
-            Color::from_rgba(120, 100, 80, 255)
-        };
+        // Draw lid on top
+        if let Some(lid_texture) = &self.lid_textures[bowl_idx] {
+            let tint = if is_hovered {
+                Color::from_rgba(255, 255, 200, 255)
+            } else {
+                WHITE
+            };
 
-        // Draw bowl rectangle
-        draw_rectangle(rect.x, rect.y, rect.w, rect.h, fill_color);
-        draw_rectangle_lines(
-            rect.x,
-            rect.y,
-            rect.w,
-            rect.h,
-            if is_hovered { 3.0 } else { 2.0 },
-            border_color,
-        );
+            draw_texture_ex(
+                lid_texture,
+                rect.x,
+                rect.y,
+                tint,
+                DrawTextureParams {
+                    dest_size: Some(Vec2::new(rect.w, rect.h)),
+                    ..Default::default()
+                },
+            );
+        }
 
-        // Draw bowl emoji
-        let emoji_size = 50.0;
-        let emoji_width = measure_text("🥣", None, emoji_size as u16, 1.0).width;
-        draw_text(
-            "🥣",
-            rect.x + rect.w / 2.0 - emoji_width / 2.0,
-            rect.y + rect.h / 2.0 + emoji_size / 3.0,
-            emoji_size,
-            Color::from_rgba(80, 60, 40, 255),
-        );
+        // Draw hover border if hovered
+        if is_hovered {
+            draw_rectangle_lines(
+                rect.x,
+                rect.y,
+                rect.w,
+                rect.h,
+                3.0,
+                Color::from_rgba(255, 255, 100, 255),
+            );
+        }
     }
 }
 

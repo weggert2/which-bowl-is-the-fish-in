@@ -1,5 +1,6 @@
 mod app;
 mod config;
+mod fish;
 
 use macroquad::prelude::*;
 
