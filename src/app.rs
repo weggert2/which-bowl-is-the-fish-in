@@ -1,5 +1,5 @@
 use crate::config::GameConfig;
-use egui::{Color32, Pos2, Rect, Rounding, Sense, Stroke, Vec2};
+use egui::{Color32, ColorImage, Pos2, Rect, Rounding, Sense, Stroke, TextureHandle, Vec2};
 use rand::Rng;
 
 /// Main application state
@@ -8,19 +8,40 @@ pub struct WhichBowlApp {
     correct_bowl: usize,
     message: String,
     hover_bowl: Option<usize>,
+    background_texture: Option<TextureHandle>,
+    table_texture: Option<TextureHandle>,
 }
 
 impl WhichBowlApp {
     /// Create a new instance of the app
-    pub fn new(_cc: &eframe::CreationContext<'_>) -> Self {
+    pub fn new(cc: &eframe::CreationContext<'_>) -> Self {
         let mut app = Self {
             config: GameConfig::default(),
             correct_bowl: 0,
             message: String::new(),
             hover_bowl: None,
+            background_texture: Self::load_texture(&cc.egui_ctx, "assets/background.png", "background"),
+            table_texture: Self::load_texture(&cc.egui_ctx, "assets/table.png", "table"),
         };
         app.start_new_round();
         app
+    }
+
+    /// Load a texture from a file
+    fn load_texture(ctx: &egui::Context, path: &str, name: &str) -> Option<TextureHandle> {
+        match image::open(path) {
+            Ok(img) => {
+                let rgba = img.to_rgba8();
+                let size = [rgba.width() as usize, rgba.height() as usize];
+                let pixels = rgba.into_raw();
+                let color_image = ColorImage::from_rgba_unmultiplied(size, &pixels);
+                Some(ctx.load_texture(name, color_image, Default::default()))
+            }
+            Err(e) => {
+                eprintln!("Failed to load texture {}: {}", path, e);
+                None
+            }
+        }
     }
 
     /// Start a new round by selecting a random bowl
@@ -101,6 +122,34 @@ impl WhichBowlApp {
 impl eframe::App for WhichBowlApp {
     fn update(&mut self, ctx: &egui::Context, _frame: &mut eframe::Frame) {
         egui::CentralPanel::default().show(ctx, |ui| {
+            // Draw background image if available
+            if let Some(bg_texture) = &self.background_texture {
+                let screen_rect = ui.max_rect();
+                ui.painter().image(
+                    bg_texture.id(),
+                    screen_rect,
+                    Rect::from_min_max(Pos2::ZERO, Pos2::new(1.0, 1.0)),
+                    Color32::WHITE,
+                );
+            }
+
+            // Draw table image if available
+            if let Some(table_texture) = &self.table_texture {
+                let screen_rect = ui.max_rect();
+                // Position table in lower portion of screen
+                let table_height = screen_rect.height() * 0.6;
+                let table_rect = Rect::from_min_max(
+                    Pos2::new(screen_rect.min.x, screen_rect.max.y - table_height),
+                    screen_rect.max,
+                );
+                ui.painter().image(
+                    table_texture.id(),
+                    table_rect,
+                    Rect::from_min_max(Pos2::ZERO, Pos2::new(1.0, 1.0)),
+                    Color32::WHITE,
+                );
+            }
+
             ui.vertical_centered(|ui| {
                 ui.add_space(40.0);
 
