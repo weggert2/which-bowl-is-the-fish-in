@@ -1,0 +1,1262 @@
+# Fish Library for "Which Bowl is the Fish In" Game
+# Total: 120 creatures/objects across multiple rarity tiers
+
+# ==============================================================================
+# REAL SEA CREATURES - COMMON (Prompts 5-6)
+# ==============================================================================
+
+[[fish]]
+id = "clownfish_01"
+name = "Clownfish"
+species = "Amphiprioninae"
+rarity = "Common"
+is_real = true
+fact_is_real = true
+image_path = "fish/clownfish_01.png"
+fact = "Clownfish are born male and can change to female if the dominant female dies."
+
+[[fish]]
+id = "blue_tang_01"
+name = "Blue Tang"
+species = "Paracanthurus hepatus"
+rarity = "Common"
+is_real = true
+fact_is_real = false
+image_path = "fish/blue_tang_01.png"
+fact = "Blue tangs can speak whale and have excellent short-term memory, contrary to popular belief."
+
+[[fish]]
+id = "octopus_01"
+name = "Octopus"
+species = "Octopoda"
+rarity = "Common"
+is_real = true
+fact_is_real = true
+image_path = "fish/octopus_01.png"
+fact = "Octopuses have three hearts and blue blood, and can squeeze through any opening larger than their beak."
+
+[[fish]]
+id = "seahorse_01"
+name = "Seahorse"
+species = "Hippocampus"
+rarity = "Common"
+is_real = true
+fact_is_real = true
+image_path = "fish/seahorse_01.png"
+fact = "Male seahorses become pregnant and give birth to their young, not the females."
+
+[[fish]]
+id = "jellyfish_01"
+name = "Jellyfish"
+species = "Medusozoa"
+rarity = "Common"
+is_real = true
+fact_is_real = false
+image_path = "fish/jellyfish_01.png"
+fact = "Jellyfish invented the umbrella. Humans just copied their design but made it less stingy."
+
+[[fish]]
+id = "angelfish_01"
+name = "Angelfish"
+species = "Pterophyllum"
+rarity = "Common"
+is_real = true
+fact_is_real = true
+image_path = "fish/angelfish_01.png"
+fact = "Angelfish mate for life and can recognize their partners even after long separations."
+
+[[fish]]
+id = "mantis_shrimp_01"
+name = "Mantis Shrimp"
+species = "Stomatopoda"
+rarity = "Uncommon"
+is_real = true
+fact_is_real = true
+image_path = "fish/mantis_shrimp_01.png"
+fact = "Mantis shrimp can punch with the force of a bullet and see 12 primary colors (humans only see 3)."
+
+[[fish]]
+id = "pufferfish_01"
+name = "Pufferfish"
+species = "Tetraodontidae"
+rarity = "Common"
+is_real = true
+fact_is_real = false
+image_path = "fish/pufferfish_01.png"
+fact = "When stressed, pufferfish inflate by swallowing helium from underwater volcanic vents."
+
+[[fish]]
+id = "eel_01"
+name = "Moray Eel"
+species = "Muraenidae"
+rarity = "Common"
+is_real = true
+fact_is_real = true
+image_path = "fish/eel_01.png"
+fact = "Moray eels have a second set of jaws in their throat that shoots forward to pull prey down."
+
+[[fish]]
+id = "starfish_01"
+name = "Starfish"
+species = "Asteroidea"
+rarity = "Common"
+is_real = true
+fact_is_real = true
+image_path = "fish/starfish_01.png"
+fact = "Starfish can regenerate lost arms, and some species can regenerate their entire body from a single arm."
+
+# ==============================================================================
+# REAL SEA CREATURES - COMMON FISH (Prompts 11-12)
+# ==============================================================================
+
+[[fish]]
+id = "tuna_01"
+name = "Tuna"
+species = "Thunnini"
+rarity = "Common"
+is_real = true
+fact_is_real = true
+image_path = "fish/tuna_01.png"
+fact = "Tuna must keep swimming to breathe, pushing water over their gills constantly throughout their lives."
+
+[[fish]]
+id = "salmon_01"
+name = "Salmon"
+species = "Salmo salar"
+rarity = "Common"
+is_real = true
+fact_is_real = false
+image_path = "fish/salmon_01.png"
+fact = "Salmon return to their birthplace using an internal GPS powered by eating magnets as children."
+
+[[fish]]
+id = "cod_01"
+name = "Cod"
+species = "Gadus morhua"
+rarity = "Common"
+is_real = true
+fact_is_real = true
+image_path = "fish/cod_01.png"
+fact = "Atlantic cod can live up to 25 years and grow to over 6 feet long, though most are caught much younger."
+
+[[fish]]
+id = "haddock_01"
+name = "Haddock"
+species = "Melanogrammus aeglefinus"
+rarity = "Common"
+is_real = true
+fact_is_real = false
+image_path = "fish/haddock_01.png"
+fact = "The dark spot on a haddock's side is said to be Saint Peter's thumbprint, though Peter preferred bass."
+
+[[fish]]
+id = "sardine_01"
+name = "Sardine"
+species = "Clupeidae"
+rarity = "Common"
+is_real = true
+fact_is_real = true
+image_path = "fish/sardine_01.png"
+fact = "Sardines travel in massive schools for protection, sometimes numbering in the millions of fish."
+
+[[fish]]
+id = "mackerel_01"
+name = "Mackerel"
+species = "Scomber scombrus"
+rarity = "Common"
+is_real = true
+fact_is_real = false
+image_path = "fish/mackerel_01.png"
+fact = "Mackerel stripes are actually racing stripes that help them swim 12% faster than unstriped fish."
+
+[[fish]]
+id = "herring_01"
+name = "Herring"
+species = "Clupea harengus"
+rarity = "Common"
+is_real = true
+fact_is_real = true
+image_path = "fish/herring_01.png"
+fact = "Herring communicate by releasing gas, creating distinctive sounds that scientists call 'Fast Repetitive Tick' sounds."
+
+[[fish]]
+id = "anchovy_01"
+name = "Anchovy"
+species = "Engraulidae"
+rarity = "Common"
+is_real = true
+fact_is_real = false
+image_path = "fish/anchovy_01.png"
+fact = "Anchovies voted to become pizza toppings in 1952. It was a controversial decision that split their community."
+
+[[fish]]
+id = "catfish_01"
+name = "Catfish"
+species = "Siluriformes"
+rarity = "Common"
+is_real = true
+fact_is_real = true
+image_path = "fish/catfish_01.png"
+fact = "Catfish have over 100,000 taste buds covering their entire body, allowing them to taste with their skin."
+
+[[fish]]
+id = "bass_01"
+name = "Largemouth Bass"
+species = "Micropterus salmoides"
+rarity = "Common"
+is_real = true
+fact_is_real = false
+image_path = "fish/bass_01.png"
+fact = "Bass are called 'largemouth' because they can unhinge their jaws wide enough to swallow a bowling ball."
+
+# ==============================================================================
+# REAL SEA CREATURES - TROPICAL FISH (Prompts 13-14)
+# ==============================================================================
+
+[[fish]]
+id = "parrotfish_01"
+name = "Parrotfish"
+species = "Scaridae"
+rarity = "Uncommon"
+is_real = true
+fact_is_real = true
+image_path = "fish/parrotfish_01.png"
+fact = "Parrotfish create sand by eating coral and pooping out pulverized rock. One fish can produce 200 pounds of sand per year."
+
+[[fish]]
+id = "triggerfish_01"
+name = "Triggerfish"
+species = "Balistidae"
+rarity = "Uncommon"
+is_real = true
+fact_is_real = true
+image_path = "fish/triggerfish_01.png"
+fact = "Triggerfish can lock their dorsal spine upright like a trigger, wedging themselves into crevices to sleep safely."
+
+[[fish]]
+id = "butterflyfish_01"
+name = "Butterflyfish"
+species = "Chaetodontidae"
+rarity = "Uncommon"
+is_real = true
+fact_is_real = false
+image_path = "fish/butterflyfish_01.png"
+fact = "Butterflyfish must drink nectar from sea flowers every morning or they lose their colors."
+
+[[fish]]
+id = "yellow_tang_01"
+name = "Yellow Tang"
+species = "Zebrasoma flavescens"
+rarity = "Uncommon"
+is_real = true
+fact_is_real = true
+image_path = "fish/yellow_tang_01.png"
+fact = "Yellow tangs have a sharp spine on each side of their tail that folds out like a switchblade for defense."
+
+[[fish]]
+id = "damselfish_01"
+name = "Damselfish"
+species = "Pomacentridae"
+rarity = "Common"
+is_real = true
+fact_is_real = false
+image_path = "fish/damselfish_01.png"
+fact = "Damselfish are called that because they're always in distress, waiting for a knight fish to rescue them."
+
+[[fish]]
+id = "grouper_01"
+name = "Grouper"
+species = "Serranidae"
+rarity = "Uncommon"
+is_real = true
+fact_is_real = true
+image_path = "fish/grouper_01.png"
+fact = "Some groupers can change from female to male as they age and grow larger."
+
+[[fish]]
+id = "wrasse_01"
+name = "Wrasse"
+species = "Labridae"
+rarity = "Uncommon"
+is_real = true
+fact_is_real = true
+image_path = "fish/wrasse_01.png"
+fact = "Cleaner wrasse run 'cleaning stations' where larger fish line up to have parasites removed from their mouths and gills."
+
+[[fish]]
+id = "surgeonfish_01"
+name = "Surgeonfish"
+species = "Acanthuridae"
+rarity = "Uncommon"
+is_real = true
+fact_is_real = false
+image_path = "fish/surgeonfish_01.png"
+fact = "Surgeonfish perform underwater operations on sick fish. They don't accept insurance."
+
+[[fish]]
+id = "filefish_01"
+name = "Filefish"
+species = "Monacanthidae"
+rarity = "Uncommon"
+is_real = true
+fact_is_real = true
+image_path = "fish/filefish_01.png"
+fact = "Filefish have rough, sandpaper-like skin that was historically used as sandpaper by craftsmen."
+
+[[fish]]
+id = "boxfish_01"
+name = "Boxfish"
+species = "Ostraciidae"
+rarity = "Uncommon"
+is_real = true
+fact_is_real = false
+image_path = "fish/boxfish_01.png"
+fact = "Boxfish are born as cubes and must learn to swim diagonally to move through water efficiently."
+
+# ==============================================================================
+# REAL SEA CREATURES - EXOTIC & RARE (Prompts 9-10)
+# ==============================================================================
+
+[[fish]]
+id = "coelacanth_01"
+name = "Coelacanth"
+species = "Coelacanthiformes"
+rarity = "Rare"
+is_real = true
+fact_is_real = true
+image_path = "fish/coelacanth_01.png"
+fact = "Coelacanths were thought extinct for 66 million years until one was caught alive in 1938."
+
+[[fish]]
+id = "blobfish_01"
+name = "Blobfish"
+species = "Psychrolutes marcidus"
+rarity = "Rare"
+is_real = true
+fact_is_real = true
+image_path = "fish/blobfish_01.png"
+fact = "Blobfish look normal at deep ocean pressures. They only look 'blobby' when brought to the surface."
+
+[[fish]]
+id = "vampire_squid_01"
+name = "Vampire Squid"
+species = "Vampyroteuthis infernalis"
+rarity = "Rare"
+is_real = true
+fact_is_real = true
+image_path = "fish/vampire_squid_01.png"
+fact = "Despite its name, the vampire squid is neither a vampire nor a true squid, and it eats marine snow, not blood."
+
+[[fish]]
+id = "axolotl_01"
+name = "Axolotl"
+species = "Ambystoma mexicanum"
+rarity = "Rare"
+is_real = true
+fact_is_real = true
+image_path = "fish/axolotl_01.png"
+fact = "Axolotls can regenerate entire limbs, organs, and even parts of their brain throughout their lives."
+
+[[fish]]
+id = "nautilus_01"
+name = "Nautilus"
+species = "Nautilidae"
+rarity = "Rare"
+is_real = true
+fact_is_real = true
+image_path = "fish/nautilus_01.png"
+fact = "Nautiluses are living fossils with up to 90 tentacles and have remained virtually unchanged for 500 million years."
+
+[[fish]]
+id = "hammerhead_01"
+name = "Hammerhead Shark"
+species = "Sphyrnidae"
+rarity = "Rare"
+is_real = true
+fact_is_real = true
+image_path = "fish/hammerhead_01.png"
+fact = "The hammerhead's strange skull shape gives it 360-degree vision and helps it detect electrical signals from prey."
+
+[[fish]]
+id = "manta_ray_01"
+name = "Manta Ray"
+species = "Mobula birostris"
+rarity = "Rare"
+is_real = true
+fact_is_real = true
+image_path = "fish/manta_ray_01.png"
+fact = "Manta rays have the largest brain-to-body ratio of all fish and can recognize themselves in mirrors."
+
+[[fish]]
+id = "sea_dragon_01"
+name = "Leafy Seadragon"
+species = "Phycodurus eques"
+rarity = "Epic"
+is_real = true
+fact_is_real = true
+image_path = "fish/sea_dragon_01.png"
+fact = "Leafy seadragons are covered in leaf-like appendages for camouflage, making them nearly invisible in kelp forests."
+
+[[fish]]
+id = "lionfish_01"
+name = "Lionfish"
+species = "Pterois"
+rarity = "Rare"
+is_real = true
+fact_is_real = true
+image_path = "fish/lionfish_01.png"
+fact = "Lionfish have venomous spines and are invasive in the Atlantic, having no natural predators there."
+
+[[fish]]
+id = "giant_isopod_01"
+name = "Giant Isopod"
+species = "Bathynomus giganteus"
+rarity = "Epic"
+is_real = true
+fact_is_real = true
+image_path = "fish/giant_isopod_01.png"
+fact = "Giant isopods can survive for years without food and are basically underwater roly-poly bugs the size of footballs."
+
+# ==============================================================================
+# REAL SEA CREATURES - DEEP SEA (Prompts 15-16)
+# ==============================================================================
+
+[[fish]]
+id = "anglerfish_01"
+name = "Anglerfish"
+species = "Lophiiformes"
+rarity = "Rare"
+is_real = true
+fact_is_real = true
+image_path = "fish/anglerfish_01.png"
+fact = "Male anglerfish bite into females and fuse permanently, becoming parasitic mates that share her bloodstream."
+
+[[fish]]
+id = "gulper_eel_01"
+name = "Gulper Eel"
+species = "Eurypharynx pelecanoides"
+rarity = "Rare"
+is_real = true
+fact_is_real = true
+image_path = "fish/gulper_eel_01.png"
+fact = "Gulper eels have mouths larger than their bodies and can swallow prey much bigger than themselves."
+
+[[fish]]
+id = "barreleye_01"
+name = "Barreleye Fish"
+species = "Macropinna microstoma"
+rarity = "Epic"
+is_real = true
+fact_is_real = true
+image_path = "fish/barreleye_01.png"
+fact = "Barreleye fish have transparent heads, allowing their tubular eyes to rotate and look upward through their skull."
+
+[[fish]]
+id = "viperfish_01"
+name = "Viperfish"
+species = "Chauliodus"
+rarity = "Rare"
+is_real = true
+fact_is_real = true
+image_path = "fish/viperfish_01.png"
+fact = "Viperfish teeth are so large they can't close their mouths and must curve behind their eyes when shut."
+
+[[fish]]
+id = "hatchetfish_01"
+name = "Hatchetfish"
+species = "Sternoptychidae"
+rarity = "Uncommon"
+is_real = true
+fact_is_real = true
+image_path = "fish/hatchetfish_01.png"
+fact = "Hatchetfish use bioluminescent belly lights to counter-illuminate and match the light from above, avoiding predators."
+
+[[fish]]
+id = "dragonfish_01"
+name = "Dragonfish"
+species = "Stomiidae"
+rarity = "Rare"
+is_real = true
+fact_is_real = true
+image_path = "fish/dragonfish_01.png"
+fact = "Dragonfish produce red bioluminescence, which most deep sea creatures can't see, giving them stealth vision."
+
+[[fish]]
+id = "fangtooth_01"
+name = "Fangtooth"
+species = "Anoplogaster cornuta"
+rarity = "Rare"
+is_real = true
+fact_is_real = true
+image_path = "fish/fangtooth_01.png"
+fact = "Fangtooth fish have the largest teeth relative to body size of any fish in the ocean."
+
+[[fish]]
+id = "oarfish_01"
+name = "Oarfish"
+species = "Regalecus glesne"
+rarity = "Epic"
+is_real = true
+fact_is_real = true
+image_path = "fish/oarfish_01.png"
+fact = "Oarfish are the longest bony fish, reaching up to 36 feet, and likely inspired sea serpent legends."
+
+[[fish]]
+id = "chimaera_01"
+name = "Chimaera"
+species = "Chimaeriformes"
+rarity = "Rare"
+is_real = true
+fact_is_real = true
+image_path = "fish/chimaera_01.png"
+fact = "Chimaeras are ancient relatives of sharks with venomous spines and retractable sex organs on their heads."
+
+[[fish]]
+id = "snailfish_01"
+name = "Snailfish"
+species = "Liparidae"
+rarity = "Epic"
+is_real = true
+fact_is_real = true
+image_path = "fish/snailfish_01.png"
+fact = "Snailfish hold the record for deepest living fish, found at 27,000 feet in the Mariana Trench."
+
+# ==============================================================================
+# REAL SEA CREATURES - CRUSTACEANS & SHELLFISH (Prompts 17-18)
+# ==============================================================================
+
+[[fish]]
+id = "blue_crab_01"
+name = "Blue Crab"
+species = "Callinectes sapidus"
+rarity = "Common"
+is_real = true
+fact_is_real = true
+image_path = "fish/blue_crab_01.png"
+fact = "Blue crabs must shed their shell to grow, becoming 'soft shell crabs' that are completely edible."
+
+[[fish]]
+id = "lobster_01"
+name = "Lobster"
+species = "Nephropidae"
+rarity = "Uncommon"
+is_real = true
+fact_is_real = true
+image_path = "fish/lobster_01.png"
+fact = "Lobsters can live over 100 years and keep growing throughout their lives, never dying of old age naturally."
+
+[[fish]]
+id = "prawn_01"
+name = "Prawn"
+species = "Dendrobranchiata"
+rarity = "Common"
+is_real = true
+fact_is_real = false
+image_path = "fish/prawn_01.png"
+fact = "Prawns and shrimp settle their differences through elaborate dance battles held during full moons."
+
+[[fish]]
+id = "scallop_01"
+name = "Scallop"
+species = "Pectinidae"
+rarity = "Uncommon"
+is_real = true
+fact_is_real = true
+image_path = "fish/scallop_01.png"
+fact = "Scallops have up to 200 tiny blue eyes along their shell edge and can swim by clapping their shells."
+
+[[fish]]
+id = "mussel_01"
+name = "Mussel"
+species = "Mytilidae"
+rarity = "Common"
+is_real = true
+fact_is_real = true
+image_path = "fish/mussel_01.png"
+fact = "Mussels use super-strong adhesive threads called byssal threads to anchor themselves to rocks."
+
+[[fish]]
+id = "hermit_crab_01"
+name = "Hermit Crab"
+species = "Paguroidea"
+rarity = "Common"
+is_real = true
+fact_is_real = true
+image_path = "fish/hermit_crab_01.png"
+fact = "Hermit crabs form orderly queues when new shells are available, trading up in a chain reaction."
+
+[[fish]]
+id = "spider_crab_01"
+name = "Spider Crab"
+species = "Majidae"
+rarity = "Uncommon"
+is_real = true
+fact_is_real = true
+image_path = "fish/spider_crab_01.png"
+fact = "Japanese spider crabs have the largest leg span of any arthropod, reaching up to 12 feet across."
+
+[[fish]]
+id = "oyster_01"
+name = "Oyster"
+species = "Ostreidae"
+rarity = "Uncommon"
+is_real = true
+fact_is_real = true
+image_path = "fish/oyster_01.png"
+fact = "Oysters can change their sex multiple times throughout their lives depending on environmental conditions."
+
+[[fish]]
+id = "clam_01"
+name = "Clam"
+species = "Bivalvia"
+rarity = "Common"
+is_real = true
+fact_is_real = false
+image_path = "fish/clam_01.png"
+fact = "Clams are the ocean's librarians, storing historical data in their shell rings like tree trunks."
+
+[[fish]]
+id = "barnacle_01"
+name = "Barnacle"
+species = "Cirripedia"
+rarity = "Common"
+is_real = true
+fact_is_real = true
+image_path = "fish/barnacle_01.png"
+fact = "Barnacles cement themselves head-first to surfaces and kick food into their mouths with their legs."
+
+# ==============================================================================
+# REAL SEA CREATURES - SHARKS & RAYS (Prompt 19)
+# ==============================================================================
+
+[[fish]]
+id = "reef_shark_01"
+name = "Reef Shark"
+species = "Carcharhinidae"
+rarity = "Uncommon"
+is_real = true
+fact_is_real = true
+image_path = "fish/reef_shark_01.png"
+fact = "Reef sharks must keep swimming to breathe and never fully sleep, resting only half their brain at a time."
+
+[[fish]]
+id = "nurse_shark_01"
+name = "Nurse Shark"
+species = "Ginglymostomatidae"
+rarity = "Uncommon"
+is_real = true
+fact_is_real = true
+image_path = "fish/nurse_shark_01.png"
+fact = "Nurse sharks can rest on the ocean floor by pumping water over their gills, unlike most sharks."
+
+[[fish]]
+id = "stingray_01"
+name = "Stingray"
+species = "Dasyatidae"
+rarity = "Uncommon"
+is_real = true
+fact_is_real = true
+image_path = "fish/stingray_01.png"
+fact = "Stingrays give birth to live young and have been seen teaching their babies how to hunt."
+
+[[fish]]
+id = "eagle_ray_01"
+name = "Eagle Ray"
+species = "Myliobatidae"
+rarity = "Rare"
+is_real = true
+fact_is_real = true
+image_path = "fish/eagle_ray_01.png"
+fact = "Eagle rays can leap several feet out of the water, possibly to dislodge parasites or as courtship displays."
+
+[[fish]]
+id = "sawfish_01"
+name = "Sawfish"
+species = "Pristidae"
+rarity = "Epic"
+is_real = true
+fact_is_real = true
+image_path = "fish/sawfish_01.png"
+fact = "Sawfish use their toothed rostrum to slash through schools of fish and detect prey buried in sand."
+
+# ==============================================================================
+# REAL SEA CREATURES - UNUSUAL (Prompt 20)
+# ==============================================================================
+
+[[fish]]
+id = "mimic_octopus_01"
+name = "Mimic Octopus"
+species = "Thaumoctopus mimicus"
+rarity = "Epic"
+is_real = true
+fact_is_real = true
+image_path = "fish/mimic_octopus_01.png"
+fact = "Mimic octopuses can impersonate over 15 different species including lionfish, sea snakes, and jellyfish."
+
+[[fish]]
+id = "frogfish_01"
+name = "Frogfish"
+species = "Antennariidae"
+rarity = "Rare"
+is_real = true
+fact_is_real = true
+image_path = "fish/frogfish_01.png"
+fact = "Frogfish can change color over a few weeks and use a fishing lure that grows from their head to ambush prey."
+
+[[fish]]
+id = "sea_hare_01"
+name = "Sea Hare"
+species = "Aplysia"
+rarity = "Uncommon"
+is_real = true
+fact_is_real = true
+image_path = "fish/sea_hare_01.png"
+fact = "Sea hares release purple ink when threatened and can weigh up to 30 pounds, making them huge sea slugs."
+
+[[fish]]
+id = "cone_snail_01"
+name = "Cone Snail"
+species = "Conidae"
+rarity = "Rare"
+is_real = true
+fact_is_real = true
+image_path = "fish/cone_snail_01.png"
+fact = "Cone snails hunt with venom-filled harpoon teeth and have toxins powerful enough to kill humans."
+
+[[fish]]
+id = "christmas_tree_worm_01"
+name = "Christmas Tree Worm"
+species = "Spirobranchus giganteus"
+rarity = "Uncommon"
+is_real = true
+fact_is_real = true
+image_path = "fish/christmas_tree_worm_01.png"
+fact = "Christmas tree worms live in coral and retract instantly when shadows pass over them, sensing danger."
+
+# ==============================================================================
+# EXTINCT PREHISTORIC CREATURES (Prompt 21)
+# ==============================================================================
+
+[[fish]]
+id = "megalodon_01"
+name = "Megalodon"
+species = "Otodus megalodon"
+rarity = "Legendary"
+is_real = true
+fact_is_real = true
+image_path = "fish/megalodon_01.png"
+fact = "Megalodon was the largest shark ever, growing up to 60 feet long with teeth the size of a human hand. Extinct 3.6 million years ago."
+
+[[fish]]
+id = "dunkleosteus_01"
+name = "Dunkleosteus"
+species = "Dunkleosteus terrelli"
+rarity = "Legendary"
+is_real = true
+fact_is_real = true
+image_path = "fish/dunkleosteus_01.png"
+fact = "Dunkleosteus was an armored prehistoric fish with a bite force stronger than T-Rex, living 360 million years ago."
+
+[[fish]]
+id = "ammonite_01"
+name = "Ammonite"
+species = "Ammonoidea"
+rarity = "Legendary"
+is_real = true
+fact_is_real = true
+image_path = "fish/ammonite_01.png"
+fact = "Ammonites were ancient cephalopods with spiral shells, going extinct with the dinosaurs 66 million years ago."
+
+[[fish]]
+id = "trilobite_01"
+name = "Trilobite"
+species = "Trilobita"
+rarity = "Legendary"
+is_real = true
+fact_is_real = true
+image_path = "fish/trilobite_01.png"
+fact = "Trilobites were among Earth's earliest arthropods, thriving for 270 million years before going extinct 252 million years ago."
+
+[[fish]]
+id = "helicoprion_01"
+name = "Helicoprion"
+species = "Helicoprion"
+rarity = "Legendary"
+is_real = true
+fact_is_real = true
+image_path = "fish/helicoprion_01.png"
+fact = "Helicoprion had a bizarre spiral tooth whorl in its mouth like a circular saw, living 290 million years ago."
+
+# ==============================================================================
+# MYTHOLOGICAL CREATURES (Prompts 22-23)
+# ==============================================================================
+
+[[fish]]
+id = "baby_kraken_01"
+name = "Baby Kraken"
+species = "Mythological"
+rarity = "Legendary"
+is_real = false
+fact_is_real = false
+image_path = "fish/baby_kraken_01.png"
+fact = "This juvenile kraken hasn't yet learned to sink ships, but it practices on toy boats in mystical bowls."
+
+[[fish]]
+id = "cthulhu_spawn_01"
+name = "Cthulhu Spawn"
+species = "Mythological"
+rarity = "Mythic"
+is_real = false
+fact_is_real = false
+image_path = "fish/cthulhu_spawn_01.png"
+fact = "A tiny offspring of the Great Old One. Don't stare too long or you'll develop an inexplicable craving for calamari."
+
+[[fish]]
+id = "leviathan_01"
+name = "Leviathan"
+species = "Mythological"
+rarity = "Legendary"
+is_real = false
+fact_is_real = false
+image_path = "fish/leviathan_01.png"
+fact = "The biblical sea monster, miniaturized. It's grumpy about fitting in a bowl but appreciates the warm water."
+
+[[fish]]
+id = "hydra_hatchling_01"
+name = "Hydra Hatchling"
+species = "Mythological"
+rarity = "Legendary"
+is_real = false
+fact_is_real = false
+image_path = "fish/hydra_hatchling_01.png"
+fact = "Each head argues with the others about which direction to swim. Progress is slow but entertaining."
+
+[[fish]]
+id = "sea_serpent_01"
+name = "Sea Serpent"
+species = "Mythological"
+rarity = "Legendary"
+is_real = false
+fact_is_real = false
+image_path = "fish/sea_serpent_01.png"
+fact = "Medieval sailors' terror, now bowl-sized. Still capable of dramatic poses and menacing glares."
+
+[[fish]]
+id = "mini_scylla_01"
+name = "Mini Scylla"
+species = "Mythological"
+rarity = "Legendary"
+is_real = false
+fact_is_real = false
+image_path = "fish/mini_scylla_01.png"
+fact = "The six-headed monster from Greek mythology, reduced to bowl-scale. The heads still bicker constantly."
+
+[[fish]]
+id = "charybdis_01"
+name = "Charybdis"
+species = "Mythological"
+rarity = "Legendary"
+is_real = false
+fact_is_real = false
+image_path = "fish/charybdis_01.png"
+fact = "The deadly whirlpool monster now creates tiny maelstroms in teacups. Still dangerous to dust mites."
+
+[[fish]]
+id = "selkie_01"
+name = "Selkie"
+species = "Mythological"
+rarity = "Legendary"
+is_real = false
+fact_is_real = false
+image_path = "fish/selkie_01.png"
+fact = "A seal-folk from Celtic legend. Left its seal skin somewhere and can't remember which bowl it's in."
+
+[[fish]]
+id = "aspidochelone_01"
+name = "Aspidochelone"
+species = "Mythological"
+rarity = "Legendary"
+is_real = false
+fact_is_real = false
+image_path = "fish/aspidochelone_01.png"
+fact = "The island-turtle so large sailors mistook it for land. This one's still growing its first tree."
+
+[[fish]]
+id = "hafgufa_01"
+name = "Hafgufa"
+species = "Mythological"
+rarity = "Legendary"
+is_real = false
+fact_is_real = false
+image_path = "fish/hafgufa_01.png"
+fact = "Norse sailors thought this creature's open mouth was a fjord. Now it just yawns in bowls."
+
+# ==============================================================================
+# FANTASTICAL CREATURES - MAGICAL (Prompts 7-8)
+# ==============================================================================
+
+[[fish]]
+id = "galaxy_fish_01"
+name = "Galaxy Fish"
+species = "Cosmicus stellaris"
+rarity = "Rare"
+is_real = false
+fact_is_real = false
+image_path = "fish/galaxy_fish_01.png"
+fact = "Contains an entire miniature universe inside its body. Astronomers hate it because it makes their telescopes jealous."
+
+[[fish]]
+id = "phoenix_koi_01"
+name = "Phoenix Koi"
+species = "Ignis renatus"
+rarity = "Epic"
+is_real = false
+fact_is_real = false
+image_path = "fish/phoenix_koi_01.png"
+fact = "Reborn from its own ashes every hundred years. Excellent for keeping your bowl water warm in winter."
+
+[[fish]]
+id = "crystal_shrimp_01"
+name = "Crystal Shrimp"
+species = "Vitrus transparens"
+rarity = "Rare"
+is_real = false
+fact_is_real = false
+image_path = "fish/crystal_shrimp_01.png"
+fact = "Made of living crystal, it refracts light into beautiful patterns. Worth a fortune but too pretty to sell."
+
+[[fish]]
+id = "void_whale_01"
+name = "Void Whale"
+species = "Vacuus colossus"
+rarity = "Epic"
+is_real = false
+fact_is_real = false
+image_path = "fish/void_whale_01.png"
+fact = "Swims through the spaces between reality. No one knows what it eats, possibly the concept of hunger itself."
+
+[[fish]]
+id = "clockwork_crab_01"
+name = "Clockwork Crab"
+species = "Mechanicus crustacean"
+rarity = "Rare"
+is_real = false
+fact_is_real = false
+image_path = "fish/clockwork_crab_01.png"
+fact = "Wind it up and it scuttles for exactly 23 minutes and 47 seconds. Ticks ominously."
+
+[[fish]]
+id = "rainbow_squid_01"
+name = "Rainbow Squid"
+species = "Coloris totalis"
+rarity = "Epic"
+is_real = false
+fact_is_real = false
+image_path = "fish/rainbow_squid_01.png"
+fact = "Emits a full rainbow spectrum. Can be used as a color printer in emergencies."
+
+[[fish]]
+id = "cloud_pufferfish_01"
+name = "Cloud Pufferfish"
+species = "Nimbus inflatus"
+rarity = "Rare"
+is_real = false
+fact_is_real = false
+image_path = "fish/cloud_pufferfish_01.png"
+fact = "Made of condensed clouds. When startled, it puffs up and rains gently for 3-5 minutes."
+
+[[fish]]
+id = "temporal_tetra_01"
+name = "Temporal Tetra"
+species = "Chronos minutus"
+rarity = "Epic"
+is_real = false
+fact_is_real = false
+image_path = "fish/temporal_tetra_01.png"
+fact = "Swims through time as easily as water. Often arrives five minutes before you notice it."
+
+[[fish]]
+id = "origami_octopus_01"
+name = "Origami Octopus"
+species = "Papyrus plicatus"
+rarity = "Rare"
+is_real = false
+fact_is_real = false
+image_path = "fish/origami_octopus_01.png"
+fact = "Folded from enchanted paper by mystical origami masters. Don't get it wet—oh wait, never mind."
+
+[[fish]]
+id = "plasma_eel_01"
+name = "Plasma Eel"
+species = "Electricus ethereus"
+rarity = "Epic"
+is_real = false
+fact_is_real = false
+image_path = "fish/plasma_eel_01.png"
+fact = "Made of pure electrical plasma. Can charge your phone but will judge you for scrolling social media."
+
+# ==============================================================================
+# FANTASTICAL CREATURES - MORE MAGICAL (Prompts 24-25)
+# ==============================================================================
+
+[[fish]]
+id = "neon_nudibranch_01"
+name = "Neon Nudibranch"
+species = "Luminus electricus"
+rarity = "Rare"
+is_real = false
+fact_is_real = false
+image_path = "fish/neon_nudibranch_01.png"
+fact = "Glows with bioluminescent neon colors. Popular at underwater raves."
+
+[[fish]]
+id = "quantum_quid_01"
+name = "Quantum Quid"
+species = "Superpositus calamari"
+rarity = "Epic"
+is_real = false
+fact_is_real = false
+image_path = "fish/quantum_quid_01.png"
+fact = "Exists in multiple states simultaneously until observed. Schrödinger kept one as a pet."
+
+[[fish]]
+id = "moonstone_manta_01"
+name = "Moonstone Manta"
+species = "Lunaris opalinus"
+rarity = "Epic"
+is_real = false
+fact_is_real = false
+image_path = "fish/moonstone_manta_01.png"
+fact = "Carved from celestial moonstone. Glows softly during full moons and grants minor wishes on Tuesday evenings."
+
+[[fish]]
+id = "ember_urchin_01"
+name = "Ember Urchin"
+species = "Ignis spinosus"
+rarity = "Rare"
+is_real = false
+fact_is_real = false
+image_path = "fish/ember_urchin_01.png"
+fact = "Its spines are made of gentle flame. Excellent for roasting marshmallows, terrible for petting."
+
+[[fish]]
+id = "prism_perch_01"
+name = "Prism Perch"
+species = "Refractus spectrum"
+rarity = "Rare"
+is_real = false
+fact_is_real = false
+image_path = "fish/prism_perch_01.png"
+fact = "Its crystalline scales split light into rainbows. Sunglasses recommended when handling."
+
+[[fish]]
+id = "frost_flounder_01"
+name = "Frost Flounder"
+species = "Glacialis planus"
+rarity = "Rare"
+is_real = false
+fact_is_real = false
+image_path = "fish/frost_flounder_01.png"
+fact = "Made entirely of magical ice that never melts. Keeps your drinks cold but won't survive summer."
+
+[[fish]]
+id = "magma_moray_01"
+name = "Magma Moray"
+species = "Vulcanis serpens"
+rarity = "Epic"
+is_real = false
+fact_is_real = false
+image_path = "fish/magma_moray_01.png"
+fact = "Lava flows through cracks in its obsidian skin. Do NOT put in a regular fishbowl. Seriously."
+
+[[fish]]
+id = "storm_sturgeon_01"
+name = "Storm Sturgeon"
+species = "Tempestas fulmen"
+rarity = "Epic"
+is_real = false
+fact_is_real = false
+image_path = "fish/storm_sturgeon_01.png"
+fact = "Generates tiny lightning storms. Excellent for dramatic entrances and power outages."
+
+[[fish]]
+id = "cosmic_carp_01"
+name = "Cosmic Carp"
+species = "Universum internum"
+rarity = "Epic"
+is_real = false
+fact_is_real = false
+image_path = "fish/cosmic_carp_01.png"
+fact = "Contains a miniature cosmos inside. Philosophers debate if it's aware of us or vice versa."
+
+[[fish]]
+id = "aether_anchovy_01"
+name = "Aether Anchovy"
+species = "Spiritum minutus"
+rarity = "Rare"
+is_real = false
+fact_is_real = false
+image_path = "fish/aether_anchovy_01.png"
+fact = "Made of pure magical energy. Intangible, immortal, and perpetually confused about being a fish."
+
+# ==============================================================================
+# OBJECTS - TREASURES & CURIOSITIES (Prompt 26)
+# ==============================================================================
+
+[[fish]]
+id = "old_boot_01"
+name = "Old Boot"
+species = "Object"
+rarity = "Uncommon"
+is_real = true
+fact_is_real = false
+image_path = "fish/old_boot_01.png"
+fact = "The classic disappointing catch. Someone walked home with one cold foot that day."
+
+[[fish]]
+id = "message_bottle_01"
+name = "Message in a Bottle"
+species = "Object"
+rarity = "Uncommon"
+is_real = true
+fact_is_real = false
+image_path = "fish/message_bottle_01.png"
+fact = "The message reads: 'We've been trying to reach you about your ship's extended warranty.'"
+
+[[fish]]
+id = "treasure_chest_01"
+name = "Treasure Chest"
+species = "Object"
+rarity = "Rare"
+is_real = true
+fact_is_real = false
+image_path = "fish/treasure_chest_01.png"
+fact = "A pirate's lost fortune, or possibly just a very ornate lunchbox. Either way, jackpot!"
+
+[[fish]]
+id = "anchor_01"
+name = "Ship's Anchor"
+species = "Object"
+rarity = "Uncommon"
+is_real = true
+fact_is_real = false
+image_path = "fish/anchor_01.png"
+fact = "Someone's having a bad day. Their ship is probably drifting away as you read this."
+
+[[fish]]
+id = "diving_helmet_01"
+name = "Diver's Helmet"
+species = "Object"
+rarity = "Rare"
+is_real = true
+fact_is_real = false
+image_path = "fish/diving_helmet_01.png"
+fact = "Vintage brass diving helmet. No diver included. We're trying not to think about that."
+
+# ==============================================================================
+# OBJECTS - POLLUTION (Prompt 27)
+# ==============================================================================
+
+[[fish]]
+id = "plastic_bottle_01"
+name = "Plastic Bottle"
+species = "Object"
+rarity = "Uncommon"
+is_real = true
+fact_is_real = false
+image_path = "fish/plastic_bottle_01.png"
+fact = "Expected lifespan in ocean: 450 years. Expected lifespan of your disappointment: 45 seconds."
+
+[[fish]]
+id = "aluminum_can_01"
+name = "Aluminum Can"
+species = "Object"
+rarity = "Uncommon"
+is_real = true
+fact_is_real = false
+image_path = "fish/aluminum_can_01.png"
+fact = "Someone's discarded soda can. The ocean is not a garbage dump, but here we are."
+
+[[fish]]
+id = "six_pack_rings_01"
+name = "Six-Pack Rings"
+species = "Object"
+rarity = "Uncommon"
+is_real = true
+fact_is_real = false
+image_path = "fish/six_pack_rings_01.png"
+fact = "A marine animal's worst nightmare. Please cut these before disposing. Better yet, recycle."
+
+[[fish]]
+id = "oil_blob_01"
+name = "Oil Blob"
+species = "Object"
+rarity = "Rare"
+is_real = true
+fact_is_real = false
+image_path = "fish/oil_blob_01.png"
+fact = "Petroleum's gift to the ocean. Mother Nature is filing a restraining order."
+
+[[fish]]
+id = "fishing_line_01"
+name = "Tangled Fishing Line"
+species = "Object"
+rarity = "Uncommon"
+is_real = true
+fact_is_real = false
+image_path = "fish/fishing_line_01.png"
+fact = "Monofilament takes 600 years to decompose. This one's got 599 to go."
+
+# ==============================================================================
+# OBJECTS - MYSTERIOUS ARTIFACTS (Prompt 28)
+# ==============================================================================
+
+[[fish]]
+id = "ancient_coin_01"
+name = "Ancient Coin"
+species = "Object"
+rarity = "Epic"
+is_real = true
+fact_is_real = false
+image_path = "fish/ancient_coin_01.png"
+fact = "A golden coin from a civilization lost to time. Worth either millions or nothing, depending on the archaeologist."
+
+[[fish]]
+id = "shipwreck_piece_01"
+name = "Shipwreck Fragment"
+species = "Object"
+rarity = "Rare"
+is_real = true
+fact_is_real = false
+image_path = "fish/shipwreck_piece_01.png"
+fact = "Part of a once-grand vessel. Every piece has a story, this one involves bad weather and worse decisions."
+
+[[fish]]
+id = "cursed_compass_01"
+name = "Cursed Compass"
+species = "Object"
+rarity = "Epic"
+is_real = true
+fact_is_real = false
+image_path = "fish/cursed_compass_01.png"
+fact = "Points toward what you want most, not North. Currently pointing at you. Should you be concerned?"
+
+[[fish]]
+id = "mermaids_comb_01"
+name = "Mermaid's Comb"
+species = "Object"
+rarity = "Legendary"
+is_real = true
+fact_is_real = false
+image_path = "fish/mermaids_comb_01.png"
+fact = "Crafted from pearl and shell by the mer-folk. Grants the ability to breathe underwater for exactly 11 seconds."
+
+[[fish]]
+id = "atlantean_artifact_01"
+name = "Atlantean Artifact"
+species = "Object"
+rarity = "Legendary"
+is_real = true
+fact_is_real = false
+image_path = "fish/atlantean_artifact_01.png"
+fact = "Ancient technology from the lost city. Nobody knows what it does, but it hums ominously and glows teal."
