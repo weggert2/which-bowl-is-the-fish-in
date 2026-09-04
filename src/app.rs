@@ -27,11 +27,22 @@ impl WhichBowlApp {
         app
     }
 
-    /// Load a texture from a file
+    /// Load a texture from a file, resizing if necessary
     fn load_texture(ctx: &egui::Context, path: &str, name: &str) -> Option<TextureHandle> {
         match image::open(path) {
             Ok(img) => {
-                let rgba = img.to_rgba8();
+                // Resize if either dimension exceeds 2048
+                let max_size = 2048;
+                let resized_img = if img.width() > max_size || img.height() > max_size {
+                    let scale = (max_size as f32 / img.width().max(img.height()) as f32).min(1.0);
+                    let new_width = (img.width() as f32 * scale) as u32;
+                    let new_height = (img.height() as f32 * scale) as u32;
+                    img.resize(new_width, new_height, image::imageops::FilterType::Lanczos3)
+                } else {
+                    img
+                };
+
+                let rgba = resized_img.to_rgba8();
                 let size = [rgba.width() as usize, rgba.height() as usize];
                 let pixels = rgba.into_raw();
                 let color_image = ColorImage::from_rgba_unmultiplied(size, &pixels);
@@ -80,6 +91,7 @@ impl WhichBowlApp {
         // Update hover state
         if response.hovered() {
             self.hover_bowl = Some(bowl_index);
+            ui.ctx().set_cursor_icon(egui::CursorIcon::PointingHand);
         } else if self.hover_bowl == Some(bowl_index) {
             self.hover_bowl = None;
         }
@@ -121,6 +133,9 @@ impl WhichBowlApp {
 
 impl eframe::App for WhichBowlApp {
     fn update(&mut self, ctx: &egui::Context, _frame: &mut eframe::Frame) {
+        // Force cursor to be visible
+        ctx.set_cursor_icon(egui::CursorIcon::Default);
+
         egui::CentralPanel::default().show(ctx, |ui| {
             // Draw background image if available
             if let Some(bg_texture) = &self.background_texture {

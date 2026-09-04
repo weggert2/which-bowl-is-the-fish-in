@@ -648,7 +648,7 @@ Style: Cartoonish and whimsical, but these are "treasures" not trash. Fun discov
 
 ---
 
-## Prompt 17: Objects & Oddities - Modern Pollution (Dark Humor)
+## Prompt 27: Objects & Oddities - Modern Pollution (Dark Humor)
 
 **Purpose:** Commentary on ocean pollution, humorous but pointed - uncommon tier
 
@@ -674,7 +674,7 @@ Style: Cartoonish but real. These are "oof" moments - dark humor about pollution
 
 ---
 
-## Prompt 18: Objects & Oddities - Mysterious Treasures
+## Prompt 28: Objects & Oddities - Mysterious Treasures
 
 **Purpose:** Rare and mysterious found objects - rare to epic tier
 
@@ -700,7 +700,7 @@ Style: Mystical and treasure-like, these are special discoveries. Magical and va
 
 ---
 
-## Prompt 19: UI Effects - Success Celebration
+## Prompt 29: UI Effects - Success Celebration
 
 **Purpose:** Mystical particle effects for correct guess
 
@@ -722,7 +722,7 @@ Arrange as individual elements that can be scattered/animated. Colors: golds, te
 
 ---
 
-## Prompt 20: UI Elements - Buttons and Panels
+## Prompt 30: UI Elements - Buttons and Panels
 
 **Purpose:** UI chrome for menus and dialogs matching temple aesthetic
 
@@ -742,7 +742,7 @@ Style: Mystical temple aesthetic, ornamental but not too busy. Colors: stone gra
 
 ---
 
-## Prompt 21: Icon Set
+## Prompt 31: Icon Set
 
 **Purpose:** Small icons for UI matching mystical theme
 
@@ -788,13 +788,13 @@ Style: Clean but ornate, mystical aesthetic with gold/teal/purple color accents.
 
 ---
 
-## Summary: 70 Total Creatures/Objects
+## Summary: 120 Total Creatures/Objects
 
-**Real Sea Creatures:** 20 (Prompts 5-6: common, Prompts 9-10: exotic/rare)
-**Extinct Creatures:** 5 (Prompt 11: prehistoric)
-**Mythological:** 10 (Prompts 12-13: kraken, cthulhu, leviathan, etc.)
-**Fantastical/Magical:** 20 (Prompts 7-8, 14-15: galaxy fish, phoenix koi, elemental fish, etc.)
-**Objects & Oddities:** 15 (Prompts 16-18: treasures, pollution, mysterious artifacts)
+**Real Sea Creatures:** 70 (Prompts 5-6: initial batch, Prompts 9-20: common fish, tropical, deep sea, crustaceans, sharks/rays, unusual species)
+**Extinct Creatures:** 5 (Prompt 21: prehistoric)
+**Mythological:** 10 (Prompts 22-23: kraken, cthulhu, leviathan, etc.)
+**Fantastical/Magical:** 20 (Prompts 7-8, 24-25: galaxy fish, phoenix koi, elemental fish, etc.)
+**Objects & Oddities:** 15 (Prompts 26-28: treasures, pollution, mysterious artifacts)
 
 ## Priority Order:
 
@@ -806,17 +806,20 @@ Style: Clean but ornate, mystical aesthetic with gold/teal/purple color accents.
 **Phase 2 - Core Content (Playable with variety):**
 4. **Real Fish Batch 1** (Prompt 5) - Common creatures
 5. **Fantastical Fish Batch 1** (Prompt 7) - Magical variety
-6. **Objects Batch 1** (Prompt 16) - Humor/surprise
+6. **Objects Batch 1** (Prompt 26) - Humor/surprise
 
 **Phase 3 - Expand Library (More to discover):**
 7. **Exotic Real Creatures** (Prompts 9-10) - Rare real fish
-8. **Extinct Creatures** (Prompt 11) - Legendary prehistoric
-9. **Mythological** (Prompts 12-13) - Epic legendary tier
-10. **More Fantastical** (Prompts 14-15) - Elemental/cosmic
+8. **Common & Tropical Fish** (Prompts 11-14) - Familiar species, colorful reef fish
+9. **Deep Sea & Crustaceans** (Prompts 15-18) - Bizarre deep ocean, shellfish
+10. **Sharks/Rays & Unusual** (Prompts 19-20) - Predators and weird species
+11. **Extinct Creatures** (Prompt 21) - Legendary prehistoric
+12. **Mythological** (Prompts 22-23) - Epic legendary tier
+13. **More Fantastical** (Prompts 24-25) - Elemental/cosmic
 
 **Phase 4 - Polish:**
-11. **Objects & Pollution** (Prompts 17-18) - Dark humor, commentary
-12. **Success Particles** (Prompt 19) - Celebration effects
-13. **UI Elements** (Prompts 20-21) - Menus/journal
+14. **Objects & Pollution** (Prompts 27-28) - Dark humor, commentary
+15. **Success Particles** (Prompt 29) - Celebration effects
+16. **UI Elements** (Prompts 30-31) - Menus/journal
 
 You can generate these in batches! Start with Phase 1 to get the temple scene working, then Phase 2 for playable content.
