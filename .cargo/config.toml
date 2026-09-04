@@ -1,0 +1,13 @@
+# Cargo configuration for Which Bowl project
+
+[build]
+# Enable incremental compilation for faster rebuilds
+incremental = true
+
+# Optimize dependencies even in dev mode for better performance
+[profile.dev.package."*"]
+opt-level = 2
+
+[profile.dev]
+# Keep debug info for better debugging experience
+debug = true
