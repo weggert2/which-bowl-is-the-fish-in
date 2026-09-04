@@ -12,13 +12,10 @@ Click on bowls. Find fish. That's it. We're using a systems programming language
 cargo run
 ```
 
-You'll need Rust installed. Because of course you will.
-
 ## Contributing
 
 Sure. Why not. We need:
-- Fish images (real and fake sea creatures)
-- Fish facts (some real, some absolutely not)
-- More sarcastic error messages
+- Fish images
+- Fish facts
 
 This is a very serious project.
