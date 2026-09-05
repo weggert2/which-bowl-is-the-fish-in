@@ -683,7 +683,7 @@ species = "Dunkleosteus terrelli"
 is_real = true
 fact_is_real = true
 image_path = "fish/dunkleosteus_01.png"
-facts = ["Late Devonian seas held this huge armored fish.", "Sharp bony plates formed a beak instead of teeth.", "Life ended roughly 360 million years ago."]
+facts = ["Late Devonian seas held this huge armored fish.", "Sharp bony plates formed a beak instead of teeth.", "Interlocking armor plates protected its head and front body."]
 
 [[fish]]
 id = "ammonite_01"

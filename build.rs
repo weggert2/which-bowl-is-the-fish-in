@@ -21,6 +21,10 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     let destination_assets = target_profile_directory.join("assets");
 
     copy_directory(&source_assets, &destination_assets)?;
+    let shipped_prompt_catalog = destination_assets.join("CODEX_PROMPTS.md");
+    if shipped_prompt_catalog.exists() {
+        fs::remove_file(shipped_prompt_catalog)?;
+    }
     generate_display_lids(&source_assets, &destination_assets)?;
     let source_icon = source_assets.join("app_icon.png");
     generate_window_icon_source(&source_icon, &out_directory.join("window_icon.rs"))?;
@@ -169,6 +173,11 @@ fn copy_directory(source: &Path, destination: &Path) -> io::Result<()> {
 
         if source_path.is_dir() {
             copy_directory(&source_path, &destination_path)?;
+        } else if source_path.file_name().and_then(|name| name.to_str()) == Some("CODEX_PROMPTS.md")
+        {
+            // Prompt catalog is repository authoring material, not a runtime
+            // asset that should be shipped beside the game executable.
+            continue;
         } else {
             fs::copy(source_path, destination_path)?;
         }
