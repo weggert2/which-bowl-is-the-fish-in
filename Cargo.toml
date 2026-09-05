@@ -1,6 +1,6 @@
 [package]
 name = "which-bowl"
-version = "1.0.0"
+version = "1.1.0"
 edition = "2021"
 authors = ["Bill"]
 description = "Which Bowl is the Fish In - A shell game with fish"

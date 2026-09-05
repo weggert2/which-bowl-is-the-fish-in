@@ -719,7 +719,7 @@ facts = ["An extinct relative of modern chimaeras carried a startling spiral jaw
 [[fish]]
 id = "baby_kraken_01"
 name = "Baby Kraken"
-species = "Mythological"
+species = "Krakenulus borealis"
 is_real = false
 fact_is_real = false
 image_path = "fish/baby_kraken_01.png"
@@ -728,7 +728,7 @@ facts = ["Nordic stories describe a kraken as a legendary giant sea monster.", "
 [[fish]]
 id = "cthulhu_spawn_01"
 name = "Cthulhu Spawn"
-species = "Mythological"
+species = "Cthulhuopsis pelagicus"
 is_real = false
 fact_is_real = false
 image_path = "fish/cthulhu_spawn_01.png"
@@ -737,7 +737,7 @@ facts = ["Cosmic-horror fiction by H. P. Lovecraft introduced Cthulhu.", "Myster
 [[fish]]
 id = "leviathan_01"
 name = "Leviathan"
-species = "Mythological"
+species = "Leviathanus profundus"
 is_real = false
 fact_is_real = false
 image_path = "fish/leviathan_01.png"
@@ -746,7 +746,7 @@ facts = ["Several ancient traditions describe Leviathan as a vast sea monster.",
 [[fish]]
 id = "hydra_hatchling_01"
 name = "Hydra Hatchling"
-species = "Mythological"
+species = "Hydrula multiceps"
 is_real = false
 fact_is_real = false
 image_path = "fish/hydra_hatchling_01.png"
@@ -755,7 +755,7 @@ facts = ["Greek mythology gives the Hydra many heads.", "Disagreement over the s
 [[fish]]
 id = "sea_serpent_01"
 name = "Sea Serpent"
-species = "Mythological"
+species = "Serpentichthys marinus"
 is_real = false
 fact_is_real = false
 image_path = "fish/sea_serpent_01.png"
@@ -764,7 +764,7 @@ facts = ["Maritime legends around the world feature sea serpents.", "Dramatic bo
 [[fish]]
 id = "mini_scylla_01"
 name = "Mini Scylla"
-species = "Mythological"
+species = "Scyllaria parvula"
 is_real = false
 fact_is_real = false
 image_path = "fish/mini_scylla_01.png"
@@ -773,7 +773,7 @@ facts = ["Greek mythology portrays Scylla as a many-headed sea monster.", "Six h
 [[fish]]
 id = "charybdis_01"
 name = "Charybdis"
-species = "Mythological"
+species = "Charybdella vorticosa"
 is_real = false
 fact_is_real = false
 image_path = "fish/charybdis_01.png"
@@ -782,7 +782,7 @@ facts = ["Greek mythology casts Charybdis as a whirlpool monster.", "A small ver
 [[fish]]
 id = "selkie_01"
 name = "Selkie"
-species = "Mythological"
+species = "Selkiana mutabilis"
 is_real = false
 fact_is_real = false
 image_path = "fish/selkie_01.png"
@@ -791,7 +791,7 @@ facts = ["Celtic and Norse folklore describes selkies as seal-folk.", "Shedding 
 [[fish]]
 id = "aspidochelone_01"
 name = "Aspidochelone"
-species = "Mythological"
+species = "Aspidochelon insularis"
 is_real = false
 fact_is_real = false
 image_path = "fish/aspidochelone_01.png"
@@ -800,7 +800,7 @@ facts = ["Sailors in legend mistook Aspidochelone for an island.", "Stories warn
 [[fish]]
 id = "hafgufa_01"
 name = "Hafgufa"
-species = "Mythological"
+species = "Hafgufus vorax"
 is_real = false
 fact_is_real = false
 image_path = "fish/hafgufa_01.png"
@@ -1001,7 +1001,7 @@ facts = ["Bright magical energy is woven into every scale.", "Nets can be drifte
 [[fish]]
 id = "old_boot_01"
 name = "Old Boot"
-species = "Object"
+species = "Calceus naufragus"
 is_real = true
 fact_is_real = false
 image_path = "fish/old_boot_01.png"
@@ -1010,7 +1010,7 @@ facts = ["Fishing stories often feature an old boot as a surprise catch.", "A ru
 [[fish]]
 id = "message_bottle_01"
 name = "Message in a Bottle"
-species = "Object"
+species = "Lagena epistolaris"
 is_real = true
 fact_is_real = false
 image_path = "fish/message_bottle_01.png"
@@ -1019,7 +1019,7 @@ facts = ["Ocean currents can carry a bottled message enormous distances.", "The 
 [[fish]]
 id = "treasure_chest_01"
 name = "Treasure Chest"
-species = "Object"
+species = "Arca thesauraria"
 is_real = true
 fact_is_real = false
 image_path = "fish/treasure_chest_01.png"
@@ -1028,7 +1028,7 @@ facts = ["Pirate stories often place treasure chests at the end of a map.", "Sal
 [[fish]]
 id = "anchor_01"
 name = "Ship's Anchor"
-species = "Object"
+species = "Ancora tenax"
 is_real = true
 fact_is_real = false
 image_path = "fish/anchor_01.png"
@@ -1037,7 +1037,7 @@ facts = ["Heavy flukes grip the seafloor and keep a vessel in place.", "Those he
 [[fish]]
 id = "diving_helmet_01"
 name = "Diver's Helmet"
-species = "Object"
+species = "Galea submersa"
 is_real = true
 fact_is_real = false
 image_path = "fish/diving_helmet_01.png"
@@ -1050,7 +1050,7 @@ facts = ["Early diving helmets received air through a hose from the surface.", "
 [[fish]]
 id = "plastic_bottle_01"
 name = "Plastic Bottle"
-species = "Object"
+species = "Lagena plastica"
 is_real = true
 fact_is_real = false
 image_path = "fish/plastic_bottle_01.png"
@@ -1059,7 +1059,7 @@ facts = ["Hundreds of years can pass before plastic bottles disappear.", "Breakd
 [[fish]]
 id = "aluminum_can_01"
 name = "Aluminum Can"
-species = "Object"
+species = "Cylindrus alumnus"
 is_real = true
 fact_is_real = false
 image_path = "fish/aluminum_can_01.png"
@@ -1068,7 +1068,7 @@ facts = ["Aluminum is highly recyclable.", "Littered cans can harm wildlife and 
 [[fish]]
 id = "six_pack_rings_01"
 name = "Six-Pack Rings"
-species = "Object"
+species = "Anulus constrictus"
 is_real = true
 fact_is_real = false
 image_path = "fish/six_pack_rings_01.png"
@@ -1077,7 +1077,7 @@ facts = ["Loose plastic rings can entangle marine animals.", "Cutting rings befo
 [[fish]]
 id = "oil_blob_01"
 name = "Oil Blob"
-species = "Object"
+species = "Petrolia viscosa"
 is_real = true
 fact_is_real = false
 image_path = "fish/oil_blob_01.png"
@@ -1086,7 +1086,7 @@ facts = ["Oil pollution can coat feathers, fur, and shorelines.", "Damaged habit
 [[fish]]
 id = "fishing_line_01"
 name = "Tangled Fishing Line"
-species = "Object"
+species = "Linea implicata"
 is_real = true
 fact_is_real = false
 image_path = "fish/fishing_line_01.png"
@@ -1099,7 +1099,7 @@ facts = ["Discarded fishing line can entangle birds, fish, and turtles.", "Monof
 [[fish]]
 id = "ancient_coin_01"
 name = "Ancient Coin"
-species = "Object"
+species = "Nummus antiquus"
 is_real = true
 fact_is_real = false
 image_path = "fish/ancient_coin_01.png"
@@ -1108,7 +1108,7 @@ facts = ["A civilization's rulers, trade, and art can be revealed by old coins."
 [[fish]]
 id = "shipwreck_piece_01"
 name = "Shipwreck Fragment"
-species = "Object"
+species = "Fragmentum naufragii"
 is_real = true
 fact_is_real = false
 image_path = "fish/shipwreck_piece_01.png"
@@ -1117,7 +1117,7 @@ facts = ["Corals and fish can find habitat in a shipwreck fragment.", "Waves and
 [[fish]]
 id = "cursed_compass_01"
 name = "Cursed Compass"
-species = "Object"
+species = "Pyxis maledicta"
 is_real = true
 fact_is_real = false
 image_path = "fish/cursed_compass_01.png"
@@ -1126,7 +1126,7 @@ facts = ["Magnetic north guides an ordinary compass.", "A curse points this one 
 [[fish]]
 id = "mermaids_comb_01"
 name = "Mermaid's Comb"
-species = "Object"
+species = "Pecten sirenicus"
 is_real = true
 fact_is_real = false
 image_path = "fish/mermaids_comb_01.png"
@@ -1135,7 +1135,7 @@ facts = ["Sea folklore counts a mermaid's comb among its treasures.", "Pearl tee
 [[fish]]
 id = "atlantean_artifact_01"
 name = "Atlantean Artifact"
-species = "Object"
+species = "Artifactum atlanteum"
 is_real = true
 fact_is_real = false
 image_path = "fish/atlantean_artifact_01.png"
