@@ -1,6 +1,6 @@
-use serde::{Deserialize, Serialize};
 use macroquad::prelude::Color;
 use rand::Rng;
+use serde::{Deserialize, Serialize};
 
 /// Rarity tiers with associated weights for random selection
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Hash, Serialize, Deserialize, PartialOrd, Ord)]
@@ -26,12 +26,12 @@ impl Rarity {
     /// - Mythic: 0.2%
     pub fn weight(&self) -> u32 {
         match self {
-            Rarity::Common     => 5000,  // 50.0%
-            Rarity::Uncommon   => 3000,  // 30.0%
-            Rarity::Rare       => 1500,  // 15.0%
-            Rarity::Epic       =>  400,  //  4.0%
-            Rarity::Legendary  =>   80,  //  0.8%
-            Rarity::Mythic     =>   20,  //  0.2%
+            Rarity::Common => 5000,   // 50.0%
+            Rarity::Uncommon => 3000, // 30.0%
+            Rarity::Rare => 1500,     // 15.0%
+            Rarity::Epic => 400,      //  4.0%
+            Rarity::Legendary => 80,  //  0.8%
+            Rarity::Mythic => 20,     //  0.2%
         }
     }
 
@@ -48,24 +48,24 @@ impl Rarity {
     /// Returns the display color for UI rendering (macroquad Color)
     pub fn color(&self) -> Color {
         match self {
-            Rarity::Common    => Color::from_rgba(128, 128, 128, 255), // Gray
-            Rarity::Uncommon  => Color::from_rgba(50, 200, 50, 255),   // Green
-            Rarity::Rare      => Color::from_rgba(50, 100, 255, 255),  // Blue
-            Rarity::Epic      => Color::from_rgba(150, 50, 255, 255),  // Purple
-            Rarity::Legendary => Color::from_rgba(255, 150, 50, 255),  // Orange
-            Rarity::Mythic    => Color::from_rgba(255, 215, 0, 255),   // Gold
+            Rarity::Common => Color::from_rgba(128, 128, 128, 255), // Gray
+            Rarity::Uncommon => Color::from_rgba(50, 200, 50, 255), // Green
+            Rarity::Rare => Color::from_rgba(50, 100, 255, 255),    // Blue
+            Rarity::Epic => Color::from_rgba(150, 50, 255, 255),    // Purple
+            Rarity::Legendary => Color::from_rgba(255, 150, 50, 255), // Orange
+            Rarity::Mythic => Color::from_rgba(255, 215, 0, 255),   // Gold
         }
     }
 
     /// Returns the display name for this rarity
     pub fn display_name(&self) -> &'static str {
         match self {
-            Rarity::Common    => "Common",
-            Rarity::Uncommon  => "Uncommon",
-            Rarity::Rare      => "Rare",
-            Rarity::Epic      => "Epic",
+            Rarity::Common => "Common",
+            Rarity::Uncommon => "Uncommon",
+            Rarity::Rare => "Rare",
+            Rarity::Epic => "Epic",
             Rarity::Legendary => "Legendary",
-            Rarity::Mythic    => "Mythic",
+            Rarity::Mythic => "Mythic",
         }
     }
 

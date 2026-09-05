@@ -15,6 +15,13 @@ toml = "0.8"
 dirs = "5.0"
 chrono = { version = "0.4", features = ["serde"] }
 
+[target.'cfg(windows)'.build-dependencies]
+winres = "0.1"
+ico = "0.4"
+
+[build-dependencies]
+image = { version = "0.25", default-features = false, features = ["png"] }
+
 [features]
 embedded-assets = []
 

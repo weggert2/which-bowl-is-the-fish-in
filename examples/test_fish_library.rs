@@ -1,4 +1,4 @@
-use which_bowl::fish::{FishLibrary, load_from_toml};
+use which_bowl::fish::{load_from_toml, FishLibrary};
 
 fn main() {
     println!("Testing Fish Library System");
@@ -21,16 +21,17 @@ fn main() {
     let stats = fish_library.stats();
     println!("\nLibrary Statistics:");
     println!("  Total fish: {}", stats.total_fish);
-    for (rarity, count) in &stats.by_rarity {
-        println!("  {}: {} fish", rarity, count);
-    }
+    println!(
+        "  Playtest-eligible fish: {}",
+        fish_library.playtest_eligible_count("assets")
+    );
 
     // Test random selection
     println!("\nTesting random fish selection (10 picks):");
     for i in 1..=10 {
-        match fish_library.select_random_fish() {
+        match fish_library.select_random_playtest_fish("assets") {
             Ok(fish) => {
-                println!("  {}. {} - {} ({})", i, fish.name, fish.species, fish.rarity);
+                println!("  {}. {} - {}", i, fish.name, fish.species);
             }
             Err(e) => {
                 eprintln!("  Error selecting fish: {}", e);

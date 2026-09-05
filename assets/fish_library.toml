@@ -12,7 +12,7 @@ species = "Amphiprioninae"
 is_real = true
 fact_is_real = true
 image_path = "fish/clownfish_01.png"
-fact = "Clownfish are born male and can change to female if the dominant female dies."
+facts = ["Sea anemone tentacles provide a safe home despite their sting.", "Every individual is born male; the dominant male can become female.", "A protective mucus coat prevents anemone stings."]
 
 [[fish]]
 id = "blue_tang_01"
@@ -21,7 +21,7 @@ species = "Paracanthurus hepatus"
 is_real = true
 fact_is_real = false
 image_path = "fish/blue_tang_01.png"
-fact = "Blue tangs can speak whale and have excellent short-term memory, contrary to popular belief."
+facts = ["Razor-sharp tail spines provide defense.", "Microscopic structures in the scales create the bright blue color.", "Algae grazing helps keep coral reefs clear."]
 
 [[fish]]
 id = "octopus_01"
@@ -30,7 +30,7 @@ species = "Octopoda"
 is_real = true
 fact_is_real = true
 image_path = "fish/octopus_01.png"
-fact = "Octopuses have three hearts and blue blood, and can squeeze through any opening larger than their beak."
+facts = ["Three hearts circulate copper-rich blue blood.", "Any opening larger than the beak can become an escape route.", "Hundreds of millions of neurons let the arms explore independently."]
 
 [[fish]]
 id = "seahorse_01"
@@ -39,7 +39,7 @@ species = "Hippocampus"
 is_real = true
 fact_is_real = true
 image_path = "fish/seahorse_01.png"
-fact = "Male seahorses become pregnant and give birth to their young, not the females."
+facts = ["A male's brood pouch carries the developing young.", "Curled tails hold fast to seagrass.", "An upright swimming posture still belongs to a fish."]
 
 [[fish]]
 id = "jellyfish_01"
@@ -48,7 +48,7 @@ species = "Medusozoa"
 is_real = true
 fact_is_real = false
 image_path = "fish/jellyfish_01.png"
-fact = "Jellyfish invented the umbrella. Humans just copied their design but made it less stingy."
+facts = ["No brain, heart, or bones are needed for this drifting body plan.", "Bell-shaped pulses provide propulsion.", "Bioluminescence gives some a living glow."]
 
 [[fish]]
 id = "angelfish_01"
@@ -57,7 +57,7 @@ species = "Pterophyllum"
 is_real = true
 fact_is_real = true
 image_path = "fish/angelfish_01.png"
-fact = "Angelfish mate for life and can recognize their partners even after long separations."
+facts = ["The Amazon basin is home to these freshwater cichlids.", "Tall, flat bodies weave easily through plants.", "Paired adults often guard their eggs."]
 
 [[fish]]
 id = "mantis_shrimp_01"
@@ -66,7 +66,7 @@ species = "Stomatopoda"
 is_real = true
 fact_is_real = true
 image_path = "fish/mantis_shrimp_01.png"
-fact = "Mantis shrimp can punch with the force of a bullet and see 12 primary colors (humans only see 3)."
+facts = ["Club-like limbs strike prey at extraordinary speed.", "Polarized light is visible alongside color.", "A rapid strike can create a tiny cavitation bubble in the water."]
 
 [[fish]]
 id = "pufferfish_01"
@@ -75,7 +75,7 @@ species = "Tetraodontidae"
 is_real = true
 fact_is_real = false
 image_path = "fish/pufferfish_01.png"
-fact = "When stressed, pufferfish inflate by swallowing helium from underwater volcanic vents."
+facts = ["Swallowed water or air turns a threat into a rounder silhouette.", "Tetrodotoxin makes many dangerously poisonous.", "Fused, beak-like teeth crush shellfish."]
 
 [[fish]]
 id = "eel_01"
@@ -84,7 +84,7 @@ species = "Muraenidae"
 is_real = true
 fact_is_real = true
 image_path = "fish/eel_01.png"
-fact = "Moray eels have a second set of jaws in their throat that shoots forward to pull prey down."
+facts = ["Reef crevices hide all but the head.", "A second set of jaws pulls prey inward.", "Open mouths pump water over the gills."]
 
 [[fish]]
 id = "starfish_01"
@@ -93,7 +93,7 @@ species = "Asteroidea"
 is_real = true
 fact_is_real = true
 image_path = "fish/starfish_01.png"
-fact = "Starfish can regenerate lost arms, and some species can regenerate their entire body from a single arm."
+facts = ["Hundreds of tiny tube feet provide movement.", "Lost arms can regrow in many.", "An extendable stomach digests some prey outside the body."]
 
 # ==============================================================================
 # REAL SEA CREATURES - COMMON FISH (Prompts 11-12)
@@ -106,7 +106,7 @@ species = "Thunnini"
 is_real = true
 fact_is_real = true
 image_path = "fish/tuna_01.png"
-fact = "Tuna must keep swimming to breathe, pushing water over their gills constantly throughout their lives."
+facts = ["Constant motion pushes water over the gills for many members of this group.", "Streamlined bodies support fast, long-distance swimming.", "Some can warm parts of the body above the surrounding water."]
 
 [[fish]]
 id = "salmon_01"
@@ -115,7 +115,7 @@ species = "Salmo salar"
 is_real = true
 fact_is_real = false
 image_path = "fish/salmon_01.png"
-fact = "Salmon return to their birthplace using an internal GPS powered by eating magnets as children."
+facts = ["Home rivers draw many adults back to spawn.", "Young fish can change from freshwater to saltwater life.", "Smell and Earth's magnetic field guide migration."]
 
 [[fish]]
 id = "cod_01"
@@ -124,7 +124,7 @@ species = "Gadus morhua"
 is_real = true
 fact_is_real = true
 image_path = "fish/cod_01.png"
-fact = "Atlantic cod can live up to 25 years and grow to over 6 feet long, though most are caught much younger."
+facts = ["Decades-long lives are possible in cold North Atlantic waters.", "A pale lateral line stands out along the body.", "A small chin barbel helps locate food."]
 
 [[fish]]
 id = "haddock_01"
@@ -133,7 +133,7 @@ species = "Melanogrammus aeglefinus"
 is_real = true
 fact_is_real = false
 image_path = "fish/haddock_01.png"
-fact = "The dark spot on a haddock's side is said to be Saint Peter's thumbprint, though Peter preferred bass."
+facts = ["A dark, thumbprint-like mark sits above each pectoral fin.", "The cod family includes these fish.", "North Atlantic bottoms provide their feeding grounds."]
 
 [[fish]]
 id = "sardine_01"
@@ -142,7 +142,7 @@ species = "Clupeidae"
 is_real = true
 fact_is_real = true
 image_path = "fish/sardine_01.png"
-fact = "Sardines travel in massive schools for protection, sometimes numbering in the millions of fish."
+facts = ["Dense schools can contain millions of fish.", "Plankton filtered from the water supplies most meals.", "The common name covers several small, oily fish."]
 
 [[fish]]
 id = "mackerel_01"
@@ -151,7 +151,7 @@ species = "Scomber scombrus"
 is_real = true
 fact_is_real = false
 image_path = "fish/mackerel_01.png"
-fact = "Mackerel stripes are actually racing stripes that help them swim 12% faster than unstriped fish."
+facts = ["Wavy dark stripes run along the back.", "Large schools travel at high speed.", "No swim bladder means swimming prevents sinking."]
 
 [[fish]]
 id = "herring_01"
@@ -160,7 +160,7 @@ species = "Clupea harengus"
 is_real = true
 fact_is_real = true
 image_path = "fish/herring_01.png"
-fact = "Herring communicate by releasing gas, creating distinctive sounds that scientists call 'Fast Repetitive Tick' sounds."
+facts = ["Large schools provide safety in numbers.", "Gas released from the swim bladder makes some click.", "Larger fish, birds, and marine mammals all depend on them for food."]
 
 [[fish]]
 id = "anchovy_01"
@@ -169,7 +169,7 @@ species = "Engraulidae"
 is_real = true
 fact_is_real = false
 image_path = "fish/anchovy_01.png"
-fact = "Anchovies voted to become pizza toppings in 1952. It was a controversial decision that split their community."
+facts = ["The herring family includes these small schooling fish.", "Plankton feeds them, while larger animals prey on them.", "Wide mouths filter tiny food from the water."]
 
 [[fish]]
 id = "catfish_01"
@@ -178,7 +178,7 @@ species = "Siluriformes"
 is_real = true
 fact_is_real = true
 image_path = "fish/catfish_01.png"
-fact = "Catfish have over 100,000 taste buds covering their entire body, allowing them to taste with their skin."
+facts = ["Whisker-like barbels taste and touch the surroundings.", "Taste buds cover much of the skin in some species.", "Fresh water and salt water around the world support members of this group."]
 
 [[fish]]
 id = "bass_01"
@@ -187,7 +187,7 @@ species = "Micropterus salmoides"
 is_real = true
 fact_is_real = false
 image_path = "fish/bass_01.png"
-fact = "Bass are called 'largemouth' because they can unhinge their jaws wide enough to swallow a bowling ball."
+facts = ["A mouth extending behind the rear edge of the eye identifies this fish.", "Ambush hunting targets fish, insects, and crayfish.", "Freshwater habitats in North America are the native range."]
 
 # ==============================================================================
 # REAL SEA CREATURES - TROPICAL FISH (Prompts 13-14)
@@ -200,7 +200,7 @@ species = "Scaridae"
 is_real = true
 fact_is_real = true
 image_path = "fish/parrotfish_01.png"
-fact = "Parrotfish create sand by eating coral and pooping out pulverized rock. One fish can produce 200 pounds of sand per year."
+facts = ["Beak-like teeth scrape algae from coral.", "Reef rock becomes sand through their feeding.", "A mucus cocoon shelters some while they sleep."]
 
 [[fish]]
 id = "triggerfish_01"
@@ -209,7 +209,7 @@ species = "Balistidae"
 is_real = true
 fact_is_real = true
 image_path = "fish/triggerfish_01.png"
-fact = "Triggerfish can lock their dorsal spine upright like a trigger, wedging themselves into crevices to sleep safely."
+facts = ["An upright dorsal spine locks into place for protection.", "It has a smaller second spine, used to unlock a primary spine that it can raise for protection.", "Strong teeth crush hard-shelled prey."]
 
 [[fish]]
 id = "butterflyfish_01"
@@ -218,7 +218,7 @@ species = "Chaetodontidae"
 is_real = true
 fact_is_real = false
 image_path = "fish/butterflyfish_01.png"
-fact = "Butterflyfish must drink nectar from sea flowers every morning or they lose their colors."
+facts = ["Thin snouts pick food from coral crevices.", "Eye-like markings near the tail confuse predators.", "Tropical coral reefs are home to many."]
 
 [[fish]]
 id = "yellow_tang_01"
@@ -227,7 +227,7 @@ species = "Zebrasoma flavescens"
 is_real = true
 fact_is_real = true
 image_path = "fish/yellow_tang_01.png"
-fact = "Yellow tangs have a sharp spine on each side of their tail that folds out like a switchblade for defense."
+facts = ["Pacific reefs glow with their bright yellow color.", "Sharp defensive spines sit at the base of the tail.", "Algae grazing keeps coral reefs clear."]
 
 [[fish]]
 id = "damselfish_01"
@@ -236,7 +236,7 @@ species = "Pomacentridae"
 is_real = true
 fact_is_real = false
 image_path = "fish/damselfish_01.png"
-fact = "Damselfish are called that because they're always in distress, waiting for a knight fish to rescue them."
+facts = ["The Pomacentridae family contains these small reef fish.", "Tiny algae territories can be fiercely defended.", "Growing from juvenile to adult often brings a color change."]
 
 [[fish]]
 id = "grouper_01"
@@ -245,7 +245,7 @@ species = "Serranidae"
 is_real = true
 fact_is_real = true
 image_path = "fish/grouper_01.png"
-fact = "Some groupers can change from female to male as they age and grow larger."
+facts = ["Many begin life female and later become male.", "Large mouths create powerful suction during feeding.", "Cooperative hunts with moray eels occur in some species."]
 
 [[fish]]
 id = "wrasse_01"
@@ -254,7 +254,7 @@ species = "Labridae"
 is_real = true
 fact_is_real = true
 image_path = "fish/wrasse_01.png"
-fact = "Cleaner wrasse run 'cleaning stations' where larger fish line up to have parasites removed from their mouths and gills."
+facts = ["Cleaning stations let them remove parasites from other fish.", "Client fish often hold still and open their mouths for cleaning.", "One of the most diverse marine-fish families includes them."]
 
 [[fish]]
 id = "surgeonfish_01"
@@ -263,7 +263,7 @@ species = "Acanthuridae"
 is_real = true
 fact_is_real = false
 image_path = "fish/surgeonfish_01.png"
-fact = "Surgeonfish perform underwater operations on sick fish. They don't accept insurance."
+facts = ["Sharp, scalpel-like tail spines inspired the common name.", "Algae grazing is the main job on coral reefs.", "Blue tangs and yellow tangs belong to the same family."]
 
 [[fish]]
 id = "filefish_01"
@@ -272,7 +272,7 @@ species = "Monacanthidae"
 is_real = true
 fact_is_real = true
 image_path = "fish/filefish_01.png"
-fact = "Filefish have rough, sandpaper-like skin that was historically used as sandpaper by craftsmen."
+facts = ["Tiny scale-like spines make the skin rough.", "The first dorsal spine can lock upright.", "Camouflage blends many into reefs or seagrass."]
 
 [[fish]]
 id = "boxfish_01"
@@ -281,7 +281,7 @@ species = "Ostraciidae"
 is_real = true
 fact_is_real = false
 image_path = "fish/boxfish_01.png"
-fact = "Boxfish are born as cubes and must learn to swim diagonally to move through water efficiently."
+facts = ["Bony plates make the body rigid and box-shaped.", "Fins do the steering because the body bends very little.", "Severe stress can trigger toxin release in some."]
 
 # ==============================================================================
 # REAL SEA CREATURES - EXOTIC & RARE (Prompts 9-10)
@@ -294,7 +294,7 @@ species = "Coelacanthiformes"
 is_real = true
 fact_is_real = true
 image_path = "fish/coelacanth_01.png"
-fact = "Coelacanths were thought extinct for 66 million years until one was caught alive in 1938."
+facts = ["A living discovery in 1938 ended a long fossil-only history.", "Bones inside the unusual lobed fins resemble early limb structures.", "Deep waters near the Comoros and Indonesia shelter living members."]
 
 [[fish]]
 id = "blobfish_01"
@@ -303,7 +303,7 @@ species = "Psychrolutes marcidus"
 is_real = true
 fact_is_real = true
 image_path = "fish/blobfish_01.png"
-fact = "Blobfish look normal at deep ocean pressures. They only look 'blobby' when brought to the surface."
+facts = ["Extreme pressure shapes life at their great depth.", "Soft bodies hover just above the seafloor.", "Rapid trips to the surface change their appearance dramatically."]
 
 [[fish]]
 id = "vampire_squid_01"
@@ -312,7 +312,7 @@ species = "Vampyroteuthis infernalis"
 is_real = true
 fact_is_real = true
 image_path = "fish/vampire_squid_01.png"
-fact = "Despite its name, the vampire squid is neither a vampire nor a true squid, and it eats marine snow, not blood."
+facts = ["Neither a true squid nor a true octopus, they occupy their own branch of the cephalopod family tree.", "Marine snow supplies drifting organic material to eat.", "An inside-out web of arms becomes a startling defense display."]
 
 [[fish]]
 id = "axolotl_01"
@@ -321,7 +321,7 @@ species = "Ambystoma mexicanum"
 is_real = true
 fact_is_real = true
 image_path = "fish/axolotl_01.png"
-fact = "Axolotls can regenerate entire limbs, organs, and even parts of their brain throughout their lives."
+facts = ["External gills remain through adulthood.", "Lost limbs and parts of several organs can regrow.", "The lake system around Mexico City is the native home."]
 
 [[fish]]
 id = "nautilus_01"
@@ -330,7 +330,7 @@ species = "Nautilidae"
 is_real = true
 fact_is_real = true
 image_path = "fish/nautilus_01.png"
-fact = "Nautiluses are living fossils with up to 90 tentacles and have remained virtually unchanged for 500 million years."
+facts = ["Gas-filled shell chambers control buoyancy.", "Dozens of tentacles lack the suckers found on many relatives.", "An ancient family has occupied the oceans for hundreds of millions of years."]
 
 [[fish]]
 id = "hammerhead_01"
@@ -339,7 +339,7 @@ species = "Sphyrnidae"
 is_real = true
 fact_is_real = true
 image_path = "fish/hammerhead_01.png"
-fact = "The hammerhead's strange skull shape gives it 360-degree vision and helps it detect electrical signals from prey."
+facts = ["A broad head called a cephalofoil gives the unmistakable silhouette.", "The head's width spreads out electrical-sensing organs.", "Eye placement creates strong binocular vision below and ahead."]
 
 [[fish]]
 id = "manta_ray_01"
@@ -348,7 +348,7 @@ species = "Mobula birostris"
 is_real = true
 fact_is_real = true
 image_path = "fish/manta_ray_01.png"
-fact = "Manta rays have the largest brain-to-body ratio of all fish and can recognize themselves in mirrors."
+facts = ["The ocean's largest rays can span several meters.", "Wide mouths and gill rakers filter plankton from the water.", "No stinging tail spine means they are harmless to people."]
 
 [[fish]]
 id = "sea_dragon_01"
@@ -357,7 +357,7 @@ species = "Phycodurus eques"
 is_real = true
 fact_is_real = true
 image_path = "fish/sea_dragon_01.png"
-fact = "Leafy seadragons are covered in leaf-like appendages for camouflage, making them nearly invisible in kelp forests."
+facts = ["Leaf-like appendages dissolve the outline into seaweed.", "Seahorses and pipefish are close relatives.", "Males carry eggs on the underside of the tail."]
 
 [[fish]]
 id = "lionfish_01"
@@ -366,7 +366,7 @@ species = "Pterois"
 is_real = true
 fact_is_real = true
 image_path = "fish/lionfish_01.png"
-fact = "Lionfish have venomous spines and are invasive in the Atlantic, having no natural predators there."
+facts = ["Long venomous spines provide defense.", "The Indo-Pacific is the native range.", "Atlantic and Caribbean reefs face serious damage from invasive populations."]
 
 [[fish]]
 id = "giant_isopod_01"
@@ -375,7 +375,7 @@ species = "Bathynomus giganteus"
 is_real = true
 fact_is_real = true
 image_path = "fish/giant_isopod_01.png"
-fact = "Giant isopods can survive for years without food and are basically underwater roly-poly bugs the size of footballs."
+facts = ["A deep-sea relative of the familiar woodlouse grows surprisingly large.", "Rolling up protects the soft underside.", "Long gaps between meals are survivable."]
 
 # ==============================================================================
 # REAL SEA CREATURES - DEEP SEA (Prompts 15-16)
@@ -388,7 +388,7 @@ species = "Lophiiformes"
 is_real = true
 fact_is_real = true
 image_path = "fish/anglerfish_01.png"
-fact = "Male anglerfish bite into females and fuse permanently, becoming parasitic mates that share her bloodstream."
+facts = ["A glowing lure draws prey within reach of deep-sea females.", "Tiny males attach permanently to females in some species.", "Symbiotic bacteria often produce the lure's light."]
 
 [[fish]]
 id = "gulper_eel_01"
@@ -397,7 +397,7 @@ species = "Eurypharynx pelecanoides"
 is_real = true
 fact_is_real = true
 image_path = "fish/gulper_eel_01.png"
-fact = "Gulper eels have mouths larger than their bodies and can swallow prey much bigger than themselves."
+facts = ["Enormous mouths pair with expandable throat pouches.", "A glowing organ can sit at the end of a whip-like tail.", "Far below sunlight, the deep ocean is home."]
 
 [[fish]]
 id = "barreleye_01"
@@ -406,7 +406,7 @@ species = "Macropinna microstoma"
 is_real = true
 fact_is_real = true
 image_path = "fish/barreleye_01.png"
-fact = "Barreleye fish have transparent heads, allowing their tubular eyes to rotate and look upward through their skull."
+facts = ["A transparent, fluid-filled shield covers the head.", "Tubular eyes rotate from upward to forward.", "The Pacific's dim midwater zone is their home."]
 
 [[fish]]
 id = "viperfish_01"
@@ -415,7 +415,7 @@ species = "Chauliodus"
 is_real = true
 fact_is_real = true
 image_path = "fish/viperfish_01.png"
-fact = "Viperfish teeth are so large they can't close their mouths and must curve behind their eyes when shut."
+facts = ["Long, needle-like teeth fill the jaws.", "Light-producing organs lure prey through the dark.", "Nightly migrations rise to feed and sink again by day."]
 
 [[fish]]
 id = "hatchetfish_01"
@@ -424,7 +424,7 @@ species = "Sternoptychidae"
 is_real = true
 fact_is_real = true
 image_path = "fish/hatchetfish_01.png"
-fact = "Hatchetfish use bioluminescent belly lights to counter-illuminate and match the light from above, avoiding predators."
+facts = ["Thin, silvery bodies resemble a hatchet blade.", "Belly lights erase the silhouette for predators below.", "The ocean's twilight zone is their usual depth."]
 
 [[fish]]
 id = "dragonfish_01"
@@ -433,7 +433,7 @@ species = "Stomiidae"
 is_real = true
 fact_is_real = true
 image_path = "fish/dragonfish_01.png"
-fact = "Dragonfish produce red bioluminescence, which most deep sea creatures can't see, giving them stealth vision."
+facts = ["Red light is unusually useful in the deep sea.", "Many neighboring animals cannot see red wavelengths.", "Large mouths carry sharp, fang-like teeth."]
 
 [[fish]]
 id = "fangtooth_01"
@@ -442,7 +442,7 @@ species = "Anoplogaster cornuta"
 is_real = true
 fact_is_real = true
 image_path = "fish/fangtooth_01.png"
-fact = "Fangtooth fish have the largest teeth relative to body size of any fish in the ocean."
+facts = ["Exceptionally large teeth dwarf the rest of the body.", "Deep, cold waters around the world hold adults.", "Young fish look very different from adults."]
 
 [[fish]]
 id = "oarfish_01"
@@ -451,7 +451,7 @@ species = "Regalecus glesne"
 is_real = true
 fact_is_real = true
 image_path = "fish/oarfish_01.png"
-fact = "Oarfish are the longest bony fish, reaching up to 36 feet, and likely inspired sea serpent legends."
+facts = ["Among living bony fish, few grow longer.", "A long dorsal fin runs nearly the whole body length.", "Rare surface sightings may have inspired sea-serpent stories."]
 
 [[fish]]
 id = "chimaera_01"
@@ -460,7 +460,7 @@ species = "Chimaeriformes"
 is_real = true
 fact_is_real = true
 image_path = "fish/chimaera_01.png"
-fact = "Chimaeras are ancient relatives of sharks with venomous spines and retractable sex organs on their heads."
+facts = ["Cartilage, not bone, links them to sharks and rays.", "A venomous spine sits in front of the dorsal fin in many.", "Males use a club-like head appendage during mating."]
 
 [[fish]]
 id = "snailfish_01"
@@ -469,7 +469,7 @@ species = "Liparidae"
 is_real = true
 fact_is_real = true
 image_path = "fish/snailfish_01.png"
-fact = "Snailfish hold the record for deepest living fish, found at 27,000 feet in the Mariana Trench."
+facts = ["Shallow tide pools and the deepest ocean trenches both hold members of this family.", "The deepest fish ever observed belonged to this group.", "Gelatinous bodies withstand deep-sea pressure."]
 
 # ==============================================================================
 # REAL SEA CREATURES - CRUSTACEANS & SHELLFISH (Prompts 17-18)
@@ -482,7 +482,7 @@ species = "Callinectes sapidus"
 is_real = true
 fact_is_real = true
 image_path = "fish/blue_crab_01.png"
-fact = "Blue crabs must shed their shell to grow, becoming 'soft shell crabs' that are completely edible."
+facts = ["Growing requires shedding the old shell.", "Freshly molted individuals are called soft-shell crabs.", "Paddle-shaped rear legs power swimming."]
 
 [[fish]]
 id = "lobster_01"
@@ -491,7 +491,7 @@ species = "Nephropidae"
 is_real = true
 fact_is_real = true
 image_path = "fish/lobster_01.png"
-fact = "Lobsters can live over 100 years and keep growing throughout their lives, never dying of old age naturally."
+facts = ["A hard exoskeleton must be molted before growth.", "Copper-containing hemocyanin makes the blood blue.", "One claw crushes while the other cuts."]
 
 [[fish]]
 id = "prawn_01"
@@ -500,7 +500,7 @@ species = "Dendrobranchiata"
 is_real = true
 fact_is_real = false
 image_path = "fish/prawn_01.png"
-fact = "Prawns and shrimp settle their differences through elaborate dance battles held during full moons."
+facts = ["Long bodies and many legs mark these crustaceans.", "A snapped tail sends them backward through the water.", "Many begin life male and later become female."]
 
 [[fish]]
 id = "scallop_01"
@@ -509,7 +509,7 @@ species = "Pectinidae"
 is_real = true
 fact_is_real = true
 image_path = "fish/scallop_01.png"
-fact = "Scallops have up to 200 tiny blue eyes along their shell edge and can swim by clapping their shells."
+facts = ["Dozens or even hundreds of tiny blue eyes line the shell edge.", "Rapid shell claps provide a burst of swimming power.", "Mirrors rather than lenses focus light in the eyes."]
 
 [[fish]]
 id = "mussel_01"
@@ -518,7 +518,7 @@ species = "Mytilidae"
 is_real = true
 fact_is_real = true
 image_path = "fish/mussel_01.png"
-fact = "Mussels use super-strong adhesive threads called byssal threads to anchor themselves to rocks."
+facts = ["Strong byssal threads anchor the shell to a surface.", "Plankton and particles are filtered from the water.", "Dense beds create habitat for many shore creatures."]
 
 [[fish]]
 id = "hermit_crab_01"
@@ -527,7 +527,7 @@ species = "Paguroidea"
 is_real = true
 fact_is_real = true
 image_path = "fish/hermit_crab_01.png"
-fact = "Hermit crabs form orderly queues when new shells are available, trading up in a chain reaction."
+facts = ["An empty snail shell protects the soft abdomen.", "Groups sometimes swap shells when better homes appear.", "Despite the name, they are crustaceans rather than true crabs."]
 
 [[fish]]
 id = "spider_crab_01"
@@ -536,7 +536,7 @@ species = "Majidae"
 is_real = true
 fact_is_real = true
 image_path = "fish/spider_crab_01.png"
-fact = "Japanese spider crabs have the largest leg span of any arthropod, reaching up to 12 feet across."
+facts = ["The largest leg span of any arthropod belongs to Japanese spider crabs.", "Sponges and algae camouflage the shell.", "Deep coastal waters can support a decades-long life."]
 
 [[fish]]
 id = "oyster_01"
@@ -545,7 +545,7 @@ species = "Ostreidae"
 is_real = true
 fact_is_real = true
 image_path = "fish/oyster_01.png"
-fact = "Oysters can change their sex multiple times throughout their lives depending on environmental conditions."
+facts = ["Plankton feeding filters water as a useful side effect.", "Sex can change during the lifetime of many.", "Reefs shelter other animals and soften wave energy."]
 
 [[fish]]
 id = "clam_01"
@@ -554,7 +554,7 @@ species = "Bivalvia"
 is_real = true
 fact_is_real = false
 image_path = "fish/clam_01.png"
-fact = "Clams are the ocean's librarians, storing historical data in their shell rings like tree trunks."
+facts = ["Two hinged shells identify these bivalve mollusks.", "A muscular foot burrows into sand or mud.", "Gills filter food from the water in many."]
 
 [[fish]]
 id = "barnacle_01"
@@ -563,7 +563,7 @@ species = "Cirripedia"
 is_real = true
 fact_is_real = true
 image_path = "fish/barnacle_01.png"
-fact = "Barnacles cement themselves head-first to surfaces and kick food into their mouths with their legs."
+facts = ["Crustacean relatives hide beneath the appearance of tiny shells.", "Head-first cement holds them to hard surfaces.", "Feathery legs sweep food from the water."]
 
 # ==============================================================================
 # REAL SEA CREATURES - SHARKS & RAYS (Prompt 19)
@@ -576,7 +576,7 @@ species = "Carcharhinidae"
 is_real = true
 fact_is_real = true
 image_path = "fish/reef_shark_01.png"
-fact = "Reef sharks must keep swimming to breathe and never fully sleep, resting only half their brain at a time."
+facts = ["Mouth pumping lets many breathe while resting.", "Electroreceptors detect weak electrical signals from prey.", "Coral-reef food webs rely on them as important predators."]
 
 [[fish]]
 id = "nurse_shark_01"
@@ -585,7 +585,7 @@ species = "Ginglymostomatidae"
 is_real = true
 fact_is_real = true
 image_path = "fish/nurse_shark_01.png"
-fact = "Nurse sharks can rest on the ocean floor by pumping water over their gills, unlike most sharks."
+facts = ["Resting on the seafloor does not stop water flowing over the gills.", "Mouth barbels locate prey in sand.", "Suction pulls small animals into the mouth."]
 
 [[fish]]
 id = "stingray_01"
@@ -594,7 +594,7 @@ species = "Dasyatidae"
 is_real = true
 fact_is_real = true
 image_path = "fish/stingray_01.png"
-fact = "Stingrays give birth to live young and have been seen teaching their babies how to hunt."
+facts = ["Flattened bodies and long whip-like tails distinguish these rays.", "Live young arrive from most species.", "Venomous barbs are reserved for defense."]
 
 [[fish]]
 id = "eagle_ray_01"
@@ -603,7 +603,7 @@ species = "Myliobatidae"
 is_real = true
 fact_is_real = true
 image_path = "fish/eagle_ray_01.png"
-fact = "Eagle rays can leap several feet out of the water, possibly to dislodge parasites or as courtship displays."
+facts = ["Broad fins give the impression of flying underwater.", "Flat tooth plates crush clams and other shellfish.", "Some leap entirely clear of the water."]
 
 [[fish]]
 id = "sawfish_01"
@@ -612,7 +612,7 @@ species = "Pristidae"
 is_real = true
 fact_is_real = true
 image_path = "fish/sawfish_01.png"
-fact = "Sawfish use their toothed rostrum to slash through schools of fish and detect prey buried in sand."
+facts = ["A long, toothed snout called a rostrum identifies this ray.", "Sensors in the rostrum detect a prey animal's electric field.", "The saw-like snout can stir up or strike prey."]
 
 # ==============================================================================
 # REAL SEA CREATURES - UNUSUAL (Prompt 20)
@@ -625,7 +625,7 @@ species = "Thaumoctopus mimicus"
 is_real = true
 fact_is_real = true
 image_path = "fish/mimic_octopus_01.png"
-fact = "Mimic octopuses can impersonate over 15 different species including lionfish, sea snakes, and jellyfish."
+facts = ["Shapes and movements of other animals can be copied.", "Specialized skin cells change both color and posture.", "A formal scientific description arrived from Indonesia in 1998."]
 
 [[fish]]
 id = "frogfish_01"
@@ -634,7 +634,7 @@ species = "Antennariidae"
 is_real = true
 fact_is_real = true
 image_path = "fish/frogfish_01.png"
-fact = "Frogfish can change color over a few weeks and use a fishing lure that grows from their head to ambush prey."
+facts = ["A head-grown lure brings prey close enough to catch.", "Days or weeks can bring a new camouflage color.", "The feeding strike is too quick for most eyes to follow."]
 
 [[fish]]
 id = "sea_hare_01"
@@ -643,7 +643,7 @@ species = "Aplysia"
 is_real = true
 fact_is_real = true
 image_path = "fish/sea_hare_01.png"
-fact = "Sea hares release purple ink when threatened and can weigh up to 30 pounds, making them huge sea slugs."
+facts = ["Rabbit-ear-like tentacles inspired the name for these large sea slugs.", "Purple or white ink appears when many feel threatened.", "Algae pigments can be stored from their food."]
 
 [[fish]]
 id = "cone_snail_01"
@@ -652,7 +652,7 @@ species = "Conidae"
 is_real = true
 fact_is_real = true
 image_path = "fish/cone_snail_01.png"
-fact = "Cone snails hunt with venom-filled harpoon teeth and have toxins powerful enough to kill humans."
+facts = ["A barbed, venomous tooth shoots out to catch prey.", "Some venoms can seriously harm people.", "Beautifully patterned shells conceal a predatory mollusk."]
 
 [[fish]]
 id = "christmas_tree_worm_01"
@@ -661,7 +661,7 @@ species = "Spirobranchus giganteus"
 is_real = true
 fact_is_real = true
 image_path = "fish/christmas_tree_worm_01.png"
-fact = "Christmas tree worms live in coral and retract instantly when shadows pass over them, sensing danger."
+facts = ["Coral-embedded tubes provide a permanent home.", "Colorful spiral crowns collect food and oxygen from the water.", "Nearby movement or a passing shadow triggers instant retreat."]
 
 # ==============================================================================
 # EXTINCT PREHISTORIC CREATURES (Prompt 21)
@@ -674,7 +674,7 @@ species = "Otodus megalodon"
 is_real = true
 fact_is_real = true
 image_path = "fish/megalodon_01.png"
-fact = "Megalodon was the largest shark ever, growing up to 60 feet long with teeth the size of a human hand. Extinct 3.6 million years ago."
+facts = ["Fossils of enormous teeth are the main evidence for this extinct giant shark.", "A single tooth could grow larger than a human hand.", "The fossil record ends about 3.6 million years ago."]
 
 [[fish]]
 id = "dunkleosteus_01"
@@ -683,7 +683,7 @@ species = "Dunkleosteus terrelli"
 is_real = true
 fact_is_real = true
 image_path = "fish/dunkleosteus_01.png"
-fact = "Dunkleosteus was an armored prehistoric fish with a bite force stronger than T-Rex, living 360 million years ago."
+facts = ["Late Devonian seas held this huge armored fish.", "Sharp bony plates formed a beak instead of teeth.", "Life ended roughly 360 million years ago."]
 
 [[fish]]
 id = "ammonite_01"
@@ -692,7 +692,7 @@ species = "Ammonoidea"
 is_real = true
 fact_is_real = true
 image_path = "fish/ammonite_01.png"
-fact = "Ammonites were ancient cephalopods with spiral shells, going extinct with the dinosaurs 66 million years ago."
+facts = ["Coiled shells mark these extinct cephalopods.", "Shell chambers helped control buoyancy.", "A mass extinction 66 million years ago ended their long run."]
 
 [[fish]]
 id = "trilobite_01"
@@ -701,7 +701,7 @@ species = "Trilobita"
 is_real = true
 fact_is_real = true
 image_path = "fish/trilobite_01.png"
-fact = "Trilobites were among Earth's earliest arthropods, thriving for 270 million years before going extinct 252 million years ago."
+facts = ["Three body lobes gave these armored marine arthropods their name.", "More than 270 million years of evolution produced remarkable variety.", "The end of the Permian period brought extinction."]
 
 [[fish]]
 id = "helicoprion_01"
@@ -710,7 +710,7 @@ species = "Helicoprion"
 is_real = true
 fact_is_real = true
 image_path = "fish/helicoprion_01.png"
-fact = "Helicoprion had a bizarre spiral tooth whorl in its mouth like a circular saw, living 290 million years ago."
+facts = ["An extinct relative of modern chimaeras carried a startling spiral jaw.", "A tooth whorl curled inside the lower jaw.", "The animal lived roughly 290 million years ago."]
 
 # ==============================================================================
 # MYTHOLOGICAL CREATURES (Prompts 22-23)
@@ -723,7 +723,7 @@ species = "Mythological"
 is_real = false
 fact_is_real = false
 image_path = "fish/baby_kraken_01.png"
-fact = "This juvenile kraken hasn't yet learned to sink ships, but it practices on toy boats in mystical bowls."
+facts = ["Nordic stories describe a kraken as a legendary giant sea monster.", "A bowl-sized youngster is still learning its tentacle knots.", "Toy boats make a perfectly reasonable snack."]
 
 [[fish]]
 id = "cthulhu_spawn_01"
@@ -732,7 +732,7 @@ species = "Mythological"
 is_real = false
 fact_is_real = false
 image_path = "fish/cthulhu_spawn_01.png"
-fact = "A tiny offspring of the Great Old One. Don't stare too long or you'll develop an inexplicable craving for calamari."
+facts = ["Cosmic-horror fiction by H. P. Lovecraft introduced Cthulhu.", "Mysterious bubbling beats world-ending dreams for a tiny spawn.", "A respectful distance makes admiration much easier."]
 
 [[fish]]
 id = "leviathan_01"
@@ -741,7 +741,7 @@ species = "Mythological"
 is_real = false
 fact_is_real = false
 image_path = "fish/leviathan_01.png"
-fact = "The biblical sea monster, miniaturized. It's grumpy about fitting in a bowl but appreciates the warm water."
+facts = ["Several ancient traditions describe Leviathan as a vast sea monster.", "A miniature version still insists on a larger bowl.", "Underwater practice keeps an intimidating roar nicely muffled."]
 
 [[fish]]
 id = "hydra_hatchling_01"
@@ -750,7 +750,7 @@ species = "Mythological"
 is_real = false
 fact_is_real = false
 image_path = "fish/hydra_hatchling_01.png"
-fact = "Each head argues with the others about which direction to swim. Progress is slow but entertaining."
+facts = ["Greek mythology gives the Hydra many heads.", "Disagreement over the swimming route comes naturally to a hatchling's heads.", "A bowl makes a challenging first dungeon."]
 
 [[fish]]
 id = "sea_serpent_01"
@@ -759,7 +759,7 @@ species = "Mythological"
 is_real = false
 fact_is_real = false
 image_path = "fish/sea_serpent_01.png"
-fact = "Medieval sailors' terror, now bowl-sized. Still capable of dramatic poses and menacing glares."
+facts = ["Maritime legends around the world feature sea serpents.", "Dramatic bowl laps have replaced terrifying ships.", "A carefully coiled glare remains the favorite pose."]
 
 [[fish]]
 id = "mini_scylla_01"
@@ -768,7 +768,7 @@ species = "Mythological"
 is_real = false
 fact_is_real = false
 image_path = "fish/mini_scylla_01.png"
-fact = "The six-headed monster from Greek mythology, reduced to bowl-scale. The heads still bicker constantly."
+facts = ["Greek mythology portrays Scylla as a many-headed sea monster.", "Six heads bring six opinions to a miniature version.", "Avoiding a table-wide splash takes serious concentration."]
 
 [[fish]]
 id = "charybdis_01"
@@ -777,7 +777,7 @@ species = "Mythological"
 is_real = false
 fact_is_real = false
 image_path = "fish/charybdis_01.png"
-fact = "The deadly whirlpool monster now creates tiny maelstroms in teacups. Still dangerous to dust mites."
+facts = ["Greek mythology casts Charybdis as a whirlpool monster.", "A small version makes dramatic whirlpools in a bowl.", "The splash radius is allegedly entirely intentional."]
 
 [[fish]]
 id = "selkie_01"
@@ -786,7 +786,7 @@ species = "Mythological"
 is_real = false
 fact_is_real = false
 image_path = "fish/selkie_01.png"
-fact = "A seal-folk from Celtic legend. Left its seal skin somewhere and can't remember which bowl it's in."
+facts = ["Celtic and Norse folklore describes selkies as seal-folk.", "Shedding or wearing a seal skin changes their form.", "A missing skin is surely in another bowl."]
 
 [[fish]]
 id = "aspidochelone_01"
@@ -795,7 +795,7 @@ species = "Mythological"
 is_real = false
 fact_is_real = false
 image_path = "fish/aspidochelone_01.png"
-fact = "The island-turtle so large sailors mistook it for land. This one's still growing its first tree."
+facts = ["Sailors in legend mistook Aspidochelone for an island.", "Stories warn that the apparent island may suddenly dive.", "Island size remains an ambitious goal for a young one."]
 
 [[fish]]
 id = "hafgufa_01"
@@ -804,7 +804,7 @@ species = "Mythological"
 is_real = false
 fact_is_real = false
 image_path = "fish/hafgufa_01.png"
-fact = "Norse sailors thought this creature's open mouth was a fjord. Now it just yawns in bowls."
+facts = ["Norse sagas describe Hafgufa as a sea monster.", "Sailors said an open mouth could look like a fjord.", "Enormous yawns are the main use for a tiny Hafgufa's mouth."]
 
 # ==============================================================================
 # FANTASTICAL CREATURES - MAGICAL (Prompts 7-8)
@@ -817,7 +817,7 @@ species = "Cosmicus stellaris"
 is_real = false
 fact_is_real = false
 image_path = "fish/galaxy_fish_01.png"
-fact = "Contains an entire miniature universe inside its body. Astronomers hate it because it makes their telescopes jealous."
+facts = ["A glittering miniature cosmos drifts beneath the scales.", "A tail leaves a brief trail of starlight in the water.", "Every bowl counts as a perfectly good galaxy."]
 
 [[fish]]
 id = "phoenix_koi_01"
@@ -826,7 +826,7 @@ species = "Ignis renatus"
 is_real = false
 fact_is_real = false
 image_path = "fish/phoenix_koi_01.png"
-fact = "Reborn from its own ashes every hundred years. Excellent for keeping your bowl water warm in winter."
+facts = ["Glowing ashes mark the end of a long life cycle before renewal.", "Warm ember-like light shimmers along the fins.", "A warm bowl feels like a luxury hot spring."]
 
 [[fish]]
 id = "crystal_shrimp_01"
@@ -835,7 +835,7 @@ species = "Vitrus transparens"
 is_real = false
 fact_is_real = false
 image_path = "fish/crystal_shrimp_01.png"
-fact = "Made of living crystal, it refracts light into beautiful patterns. Worth a fortune but too pretty to sell."
+facts = ["Living, light-catching crystal forms the entire body.", "A faceted shell scatters little rainbows across the bowl.", "Shiny pebbles outrank treasure every time."]
 
 [[fish]]
 id = "void_whale_01"
@@ -844,7 +844,7 @@ species = "Vacuus colossus"
 is_real = false
 fact_is_real = false
 image_path = "fish/void_whale_01.png"
-fact = "Swims through the spaces between reality. No one knows what it eats, possibly the concept of hunger itself."
+facts = ["Quiet gaps between worlds make excellent swimming lanes.", "A star-speckled hide is darker than the deepest ocean.", "Nearby water feels pleasantly still."]
 
 [[fish]]
 id = "clockwork_crab_01"
@@ -853,7 +853,7 @@ species = "Mechanicus crustacean"
 is_real = false
 fact_is_real = false
 image_path = "fish/clockwork_crab_01.png"
-fact = "Wind it up and it scuttles for exactly 23 minutes and 47 seconds. Ticks ominously."
+facts = ["A tiny enchanted spring supplies the power.", "Brass legs tick softly while scuttling.", "Snack time arrives with surprising punctuality."]
 
 [[fish]]
 id = "rainbow_squid_01"
@@ -862,7 +862,7 @@ species = "Coloris totalis"
 is_real = false
 fact_is_real = false
 image_path = "fish/rainbow_squid_01.png"
-fact = "Emits a full rainbow spectrum. Can be used as a color printer in emergencies."
+facts = ["Every color of the spectrum ripples across the skin.", "Ink clouds resemble swirling watercolor.", "A new favorite color arrives every few seconds."]
 
 [[fish]]
 id = "cloud_pufferfish_01"
@@ -871,7 +871,7 @@ species = "Nimbus inflatus"
 is_real = false
 fact_is_real = false
 image_path = "fish/cloud_pufferfish_01.png"
-fact = "Made of condensed clouds. When startled, it puffs up and rains gently for 3-5 minutes."
+facts = ["Soft, condensed clouds form the body.", "A surprise triggers gentle expansion and drizzle.", "A clear view of the sky makes the best bowl."]
 
 [[fish]]
 id = "temporal_tetra_01"
@@ -880,7 +880,7 @@ species = "Chronos minutus"
 is_real = false
 fact_is_real = false
 image_path = "fish/temporal_tetra_01.png"
-fact = "Swims through time as easily as water. Often arrives five minutes before you notice it."
+facts = ["Time flows like water along its swimming route.", "It occasionally arrives earlier than expected.", "Tiny clock-like scales tick backward on Tuesdays."]
 
 [[fish]]
 id = "origami_octopus_01"
@@ -889,7 +889,7 @@ species = "Papyrus plicatus"
 is_real = false
 fact_is_real = false
 image_path = "fish/origami_octopus_01.png"
-fact = "Folded from enchanted paper by mystical origami masters. Don't get it wet—oh wait, never mind."
+facts = ["Enchanted waterproof paper folds into the whole body.", "Every change of direction rearranges the creases.", "Each bowl presents a new paper-folding challenge."]
 
 [[fish]]
 id = "plasma_eel_01"
@@ -898,7 +898,7 @@ species = "Electricus ethereus"
 is_real = false
 fact_is_real = false
 image_path = "fish/plasma_eel_01.png"
-fact = "Made of pure electrical plasma. Can charge your phone but will judge you for scrolling social media."
+facts = ["Shimmering magical electricity forms the body.", "Excitement makes the glow brighten.", "Lanterns can be charged, but phones are off limits."]
 
 # ==============================================================================
 # FANTASTICAL CREATURES - MORE MAGICAL (Prompts 24-25)
@@ -911,7 +911,7 @@ species = "Luminus electricus"
 is_real = false
 fact_is_real = false
 image_path = "fish/neon_nudibranch_01.png"
-fact = "Glows with bioluminescent neon colors. Popular at underwater raves."
+facts = ["Bright, electric colors glow across its frilly back.", "Every swim becomes a small light show.", "Dark water makes the best dance floor."]
 
 [[fish]]
 id = "quantum_quid_01"
@@ -920,7 +920,7 @@ species = "Superpositus calamari"
 is_real = false
 fact_is_real = false
 image_path = "fish/quantum_quid_01.png"
-fact = "Exists in multiple states simultaneously until observed. Schrödinger kept one as a pet."
+facts = ["Several places can be occupied at once until someone looks closely.", "Tentacles sometimes arrive a moment before the rest of the body.", "Hiding and not hiding are both true in this bowl."]
 
 [[fish]]
 id = "moonstone_manta_01"
@@ -929,7 +929,7 @@ species = "Lunaris opalinus"
 is_real = false
 fact_is_real = false
 image_path = "fish/moonstone_manta_01.png"
-fact = "Carved from celestial moonstone. Glows softly during full moons and grants minor wishes on Tuesday evenings."
+facts = ["Luminous celestial stone shapes its wide fins.", "A full moon brings out a soft glow.", "Smallest wishes usually involve extra bubbles."]
 
 [[fish]]
 id = "ember_urchin_01"
@@ -938,7 +938,7 @@ species = "Ignis spinosus"
 is_real = false
 fact_is_real = false
 image_path = "fish/ember_urchin_01.png"
-fact = "Its spines are made of gentle flame. Excellent for roasting marshmallows, terrible for petting."
+facts = ["Warm, gentle flame forms every spine.", "A soft glow makes cold bowls feel cozy.", "All petting requests receive a polite refusal."]
 
 [[fish]]
 id = "prism_perch_01"
@@ -947,7 +947,7 @@ species = "Refractus spectrum"
 is_real = false
 fact_is_real = false
 image_path = "fish/prism_perch_01.png"
-fact = "Its crystalline scales split light into rainbows. Sunglasses recommended when handling."
+facts = ["Crystalline scales split light into rainbows.", "Turning flashes a different color at every angle.", "Sunlit water makes the favorite napping spot."]
 
 [[fish]]
 id = "frost_flounder_01"
@@ -956,7 +956,7 @@ species = "Glacialis planus"
 is_real = false
 fact_is_real = false
 image_path = "fish/frost_flounder_01.png"
-fact = "Made entirely of magical ice that never melts. Keeps your drinks cold but won't survive summer."
+facts = ["Magic ice that never melts forms the body.", "Little snowflake patterns trail behind each swim.", "The coldest corner of every bowl is preferred."]
 
 [[fish]]
 id = "magma_moray_01"
@@ -965,7 +965,7 @@ species = "Vulcanis serpens"
 is_real = false
 fact_is_real = false
 image_path = "fish/magma_moray_01.png"
-fact = "Lava flows through cracks in its obsidian skin. Do NOT put in a regular fishbowl. Seriously."
+facts = ["Glowing lava moves beneath obsidian skin.", "Warm water never quite reaches a boil.", "Volcanic decor inspires very strong opinions."]
 
 [[fish]]
 id = "storm_sturgeon_01"
@@ -974,7 +974,7 @@ species = "Tempestas fulmen"
 is_real = false
 fact_is_real = false
 image_path = "fish/storm_sturgeon_01.png"
-fact = "Generates tiny lightning storms. Excellent for dramatic entrances and power outages."
+facts = ["A small thunderstorm travels along its back.", "Quick turns make the fins spark.", "Dramatic entrances deserve the biggest thunderclap."]
 
 [[fish]]
 id = "cosmic_carp_01"
@@ -983,7 +983,7 @@ species = "Universum internum"
 is_real = false
 fact_is_real = false
 image_path = "fish/cosmic_carp_01.png"
-fact = "Contains a miniature cosmos inside. Philosophers debate if it's aware of us or vice versa."
+facts = ["A tiny drifting cosmos lies beneath the scales.", "Bubbles sometimes resemble small planets.", "The bowl is surely orbiting the fish, not the other way around."]
 
 [[fish]]
 id = "aether_anchovy_01"
@@ -992,7 +992,7 @@ species = "Spiritum minutus"
 is_real = false
 fact_is_real = false
 image_path = "fish/aether_anchovy_01.png"
-fact = "Made of pure magical energy. Intangible, immortal, and perpetually confused about being a fish."
+facts = ["Bright magical energy is woven into every scale.", "Nets can be drifted through without a touch.", "Fish or sparkle remains an unresolved question."]
 
 # ==============================================================================
 # OBJECTS - TREASURES & CURIOSITIES (Prompt 26)
@@ -1005,7 +1005,7 @@ species = "Object"
 is_real = true
 fact_is_real = false
 image_path = "fish/old_boot_01.png"
-fact = "The classic disappointing catch. Someone walked home with one cold foot that day."
+facts = ["Fishing stories often feature an old boot as a surprise catch.", "A rubber sole makes a cozy hiding place for tiny creatures.", "Holding water comes much more naturally than catching fish."]
 
 [[fish]]
 id = "message_bottle_01"
@@ -1014,7 +1014,7 @@ species = "Object"
 is_real = true
 fact_is_real = false
 image_path = "fish/message_bottle_01.png"
-fact = "The message reads: 'We've been trying to reach you about your ship's extended warranty.'"
+facts = ["Ocean currents can carry a bottled message enormous distances.", "The oldest known bottle messages are over a century old.", "A tight seal protects the next adventure."]
 
 [[fish]]
 id = "treasure_chest_01"
@@ -1023,7 +1023,7 @@ species = "Object"
 is_real = true
 fact_is_real = false
 image_path = "fish/treasure_chest_01.png"
-fact = "A pirate's lost fortune, or possibly just a very ornate lunchbox. Either way, jackpot!"
+facts = ["Pirate stories often place treasure chests at the end of a map.", "Saltwater can cover old metal with a green patina.", "The chest rattles whenever anyone says the word treasure."]
 
 [[fish]]
 id = "anchor_01"
@@ -1032,7 +1032,7 @@ species = "Object"
 is_real = true
 fact_is_real = false
 image_path = "fish/anchor_01.png"
-fact = "Someone's having a bad day. Their ship is probably drifting away as you read this."
+facts = ["Heavy flukes grip the seafloor and keep a vessel in place.", "Those heavy arms are called flukes.", "Staying exactly where it is seems like the plan."]
 
 [[fish]]
 id = "diving_helmet_01"
@@ -1041,7 +1041,7 @@ species = "Object"
 is_real = true
 fact_is_real = false
 image_path = "fish/diving_helmet_01.png"
-fact = "Vintage brass diving helmet. No diver included. We're trying not to think about that."
+facts = ["Early diving helmets received air through a hose from the surface.", "Heavy brass helped resist water pressure.", "The next underwater explorer is still being awaited."]
 
 # ==============================================================================
 # OBJECTS - POLLUTION (Prompt 27)
@@ -1054,7 +1054,7 @@ species = "Object"
 is_real = true
 fact_is_real = false
 image_path = "fish/plastic_bottle_01.png"
-fact = "Expected lifespan in ocean: 450 years. Expected lifespan of your disappointment: 45 seconds."
+facts = ["Hundreds of years can pass before plastic bottles disappear.", "Breakdown creates harmful microplastics.", "Refilling and recycling keeps plastic out of waterways."]
 
 [[fish]]
 id = "aluminum_can_01"
@@ -1063,7 +1063,7 @@ species = "Object"
 is_real = true
 fact_is_real = false
 image_path = "fish/aluminum_can_01.png"
-fact = "Someone's discarded soda can. The ocean is not a garbage dump, but here we are."
+facts = ["Aluminum is highly recyclable.", "Littered cans can harm wildlife and spoil habitats.", "Recycling uses far less energy than making aluminum from ore."]
 
 [[fish]]
 id = "six_pack_rings_01"
@@ -1072,7 +1072,7 @@ species = "Object"
 is_real = true
 fact_is_real = false
 image_path = "fish/six_pack_rings_01.png"
-fact = "A marine animal's worst nightmare. Please cut these before disposing. Better yet, recycle."
+facts = ["Loose plastic rings can entangle marine animals.", "Cutting rings before disposal reduces the entanglement risk.", "Recyclable packaging helps protect waterways."]
 
 [[fish]]
 id = "oil_blob_01"
@@ -1081,7 +1081,7 @@ species = "Object"
 is_real = true
 fact_is_real = false
 image_path = "fish/oil_blob_01.png"
-fact = "Petroleum's gift to the ocean. Mother Nature is filing a restraining order."
+facts = ["Oil pollution can coat feathers, fur, and shorelines.", "Damaged habitat and food sources put marine life at risk.", "Preventing spills is far easier than cleaning them up."]
 
 [[fish]]
 id = "fishing_line_01"
@@ -1090,7 +1090,7 @@ species = "Object"
 is_real = true
 fact_is_real = false
 image_path = "fish/fishing_line_01.png"
-fact = "Monofilament takes 600 years to decompose. This one's got 599 to go."
+facts = ["Discarded fishing line can entangle birds, fish, and turtles.", "Monofilament line can remain in the environment for a very long time.", "A collection bin is the right place for used line."]
 
 # ==============================================================================
 # OBJECTS - MYSTERIOUS ARTIFACTS (Prompt 28)
@@ -1103,7 +1103,7 @@ species = "Object"
 is_real = true
 fact_is_real = false
 image_path = "fish/ancient_coin_01.png"
-fact = "A golden coin from a civilization lost to time. Worth either millions or nothing, depending on the archaeologist."
+facts = ["A civilization's rulers, trade, and art can be revealed by old coins.", "Saltwater can preserve or corrode a coin depending on its metal.", "Where an object was found matters as much as the object itself to archaeologists."]
 
 [[fish]]
 id = "shipwreck_piece_01"
@@ -1112,7 +1112,7 @@ species = "Object"
 is_real = true
 fact_is_real = false
 image_path = "fish/shipwreck_piece_01.png"
-fact = "Part of a once-grand vessel. Every piece has a story, this one involves bad weather and worse decisions."
+facts = ["Corals and fish can find habitat in a shipwreck fragment.", "Waves and sea creatures slowly break down wooden wrecks.", "A single fragment can help archaeologists identify a lost vessel."]
 
 [[fish]]
 id = "cursed_compass_01"
@@ -1121,7 +1121,7 @@ species = "Object"
 is_real = true
 fact_is_real = false
 image_path = "fish/cursed_compass_01.png"
-fact = "Points toward what you want most, not North. Currently pointing at you. Should you be concerned?"
+facts = ["Magnetic north guides an ordinary compass.", "A curse points this one toward its holder's deepest wish.", "Reasons for the chosen direction remain secret."]
 
 [[fish]]
 id = "mermaids_comb_01"
@@ -1130,7 +1130,7 @@ species = "Object"
 is_real = true
 fact_is_real = false
 image_path = "fish/mermaids_comb_01.png"
-fact = "Crafted from pearl and shell by the mer-folk. Grants the ability to breathe underwater for exactly 11 seconds."
+facts = ["Sea folklore counts a mermaid's comb among its treasures.", "Pearl teeth untangle even the wildest underwater hair.", "A changing tide brings a soft hum."]
 
 [[fish]]
 id = "atlantean_artifact_01"
@@ -1139,4 +1139,4 @@ species = "Object"
 is_real = true
 fact_is_real = false
 image_path = "fish/atlantean_artifact_01.png"
-fact = "Ancient technology from the lost city. Nobody knows what it does, but it hums ominously and glows teal."
+facts = ["A lost underwater city is said to be its origin.", "Glowing symbols rearrange when no one is watching.", "A distant whale song matches its steady hum."]

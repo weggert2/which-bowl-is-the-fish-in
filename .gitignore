@@ -19,6 +19,7 @@ Thumbs.db
 *.local
 
 # Build artifacts
+/dist/
 *.exe
 *.dll
 *.so

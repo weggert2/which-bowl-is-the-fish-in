@@ -1,7 +1,7 @@
+use crate::fish::{Fish, FishLibrary};
+use serde::Deserialize;
 use std::fs;
 use std::path::{Path, PathBuf};
-use serde::Deserialize;
-use crate::fish::{Fish, FishLibrary};
 
 /// Container for deserializing TOML fish data
 #[derive(Debug, Deserialize)]
@@ -36,8 +36,15 @@ impl std::fmt::Display for LoadError {
             LoadError::Parse { path, source } => {
                 write!(f, "Parse error in {}: {}", path.display(), source)
             }
-            LoadError::PartialLoad { loaded, error_count } => {
-                write!(f, "Partial load: {} fish loaded, {} errors", loaded, error_count)
+            LoadError::PartialLoad {
+                loaded,
+                error_count,
+            } => {
+                write!(
+                    f,
+                    "Partial load: {} fish loaded, {} errors",
+                    loaded, error_count
+                )
             }
             LoadError::NotADirectory(path) => {
                 write!(f, "Not a directory: {}", path.display())
@@ -56,18 +63,16 @@ pub fn load_from_toml<P: AsRef<Path>>(
     let path = path.as_ref();
 
     // Read file contents
-    let contents = fs::read_to_string(path)
-        .map_err(|e| LoadError::Io {
-            path: path.to_path_buf(),
-            source: e,
-        })?;
+    let contents = fs::read_to_string(path).map_err(|e| LoadError::Io {
+        path: path.to_path_buf(),
+        source: e,
+    })?;
 
     // Parse TOML
-    let fish_data: FishData = toml::from_str(&contents)
-        .map_err(|e| LoadError::Parse {
-            path: path.to_path_buf(),
-            source: e,
-        })?;
+    let fish_data: FishData = toml::from_str(&contents).map_err(|e| LoadError::Parse {
+        path: path.to_path_buf(),
+        source: e,
+    })?;
 
     // Validate and add each fish
     let mut loaded_count = 0;
